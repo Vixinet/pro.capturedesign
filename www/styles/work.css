@@ -1,0 +1,133 @@
+.section-work {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #25282b;
+}
+
+.section-work .gallery-top {
+	height: 100%;
+}
+
+.section-work .gallery-thumbs {
+	position: fixed;
+	height: 15%;
+	box-sizing: border-box;
+	font-size: 0px;
+	padding: 10px 0px;
+}
+
+.section-work .gallery-thumbs .swiper-slide {
+	width: 20%;
+	height: 100%;
+	opacity: 0.3;
+}
+
+.section-work .gallery-thumbs .swiper-slide.swiper-slide-active {
+	opacity: 1;	
+}
+
+.section-work .swiper-slide  {
+	background: center bottom;
+	background-size: cover;
+	/*background-size: contain;*/
+	background-repeat: no-repeat;
+	display: -webkit-flex;
+  	-webkit-justify-content: center;
+  	-webkit-flex-direction: column;
+  	position: relative;
+}
+
+.section-work .swiper-slide.overlay:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 3;
+}
+.section-work .swiper-slide .container {
+	padding-top: 120px;
+	display: -webkit-flex;
+  	-webkit-justify-content: center;
+  	-webkit-flex-direction: row;
+  	z-index: 4;
+}
+
+.section-work .box {
+	/*background: rgba(255, 255, 255, 0.8);*/
+	/*border : 1px solid #4EBAC4;*/
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+.section-work  .left {
+	-webkit-flex: 1;
+	text-align: left;
+}
+
+.section-work .right {
+	-webkit-flex: 1;
+	text-align: right;
+}
+
+.section-work a {
+	display: inline-block;
+	border : 1px solid black;
+	padding: 10px;
+	font-weight: 200;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-variant: small-caps;
+}
+.section-work a.less {
+	color: white;
+	border: 1px solid white;
+	background: transparent;
+}
+
+.section-work a.more {
+	background: #25282b;
+	color: white;
+	position: absolute;
+	bottom: 10px;
+	left : 10px;
+}
+.section-work img.logo {
+	position: absolute;
+	bottom: 10px;
+	right : 10px;
+	width: 150px;
+}
+
+.section-work img.logo.with-bg {
+	padding: 15px;
+	background: #25282b;
+}
+
+.section-work img.logo.with-bg.light {
+	background: rgba(255, 255, 255, 0.6);
+}
+
+.section-work h1 {
+	margin: 15px 0px;
+	font-size: 20px;
+	font-weight: 200;
+	color: white;
+}
+
+.section-work h2 {
+	margin: 15px 0px;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 200;
+	color: white;
+}
+
+.section-work p {
+	font-size: 13px;
+	color: white;
+}

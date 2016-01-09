@@ -1,0 +1,33 @@
+.section-about {
+	height: 100%;
+	width: 100%;
+	display: -webkit-flex;
+  	-webkit-justify-content: center;
+ }
+
+ .section-about > .container {
+	-webkit-align-self: center;
+}
+
+.section-about .col {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.section-about h2 {
+	border-bottom: 1px solid #4EBAC4;
+	padding-bottom: 33px;
+	font-size: 37px;
+	font-weight: 100;
+	text-align: center;
+	margin-bottom: 33px;
+	color: black;
+	text-transform: uppercase;;
+}
+
+.section-about p {
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: lighter;
+	text-align: center;
+}

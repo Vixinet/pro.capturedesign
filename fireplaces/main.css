@@ -1,0 +1,24 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background: white;
+}
+
+.layers {
+}
+
+.layer {
+	position: absolute;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.toolbar {
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	overflow: auto;
+}
