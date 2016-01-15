@@ -13,9 +13,7 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "vendor",
-    "test",
-    "tests"
+    "www/scripts/vendor"
   ],
   "dependencies": {
     "jquery": null,
