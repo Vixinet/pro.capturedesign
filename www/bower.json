@@ -16,9 +16,9 @@
     "www/scripts/vendor"
   ],
   "dependencies": {
-    "jquery": null,
-    "bootstrap": null,
-    "animate.css": null,
-    "swiper": null
+    "jquery": "2.2.0",
+    "bootstrap": "#3.3.6",
+    "animate.css": "3.5.1",
+    "swiper": "3.3.0"
   }
 }
