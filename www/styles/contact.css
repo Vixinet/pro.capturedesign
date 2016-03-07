@@ -2,14 +2,27 @@
 	position: relative;
 	height: 100%;
 	width: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
 	display: -webkit-flex;
-  	-webkit-justify-content: center;
-  	-webkit-flex-direction: column;
+	display: flex;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
   	padding-bottom: 100px;
 }
 
 .section-contact > .container {
 	-webkit-align-self: center;
+	-moz-align-self: center;
+	-ms-align-self: center;
+	align-self: center;
 }
 
 .section-contact .avatar {
@@ -21,19 +34,19 @@
 
 .section-contact h1 {
 	font-size: 30px;
-	font-weight: 100;
+	font-weight: 300;
 	margin-top: 20px;
 	margin-bottom: 16px;
 }
 
 .section-contact p.contact {
 	font-size: 16px;
-	font-weight: 200;
+	font-weight: 300;
 }
 
 .section-contact p.description {
 	font-size: 14px;
-	font-weight: 200;
+	font-weight: 300;
 	text-align: left;
 	margin-top : 40px;
 	text-align: center;

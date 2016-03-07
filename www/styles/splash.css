@@ -4,9 +4,12 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	-webkit-transform: rotate(-90deg);
+	    -ms-transform: rotate(-90deg);
+	        transform: rotate(-90deg);
 	-webkit-filter: blur(1px);
-	-webkit-animation: pulse 2s ease-in;
-	-webkit-animation-iteration-count: infinite; 
+			filter: blur(1px);
+	-webkit-animation: pulse 2s ease-in infinite;
+			animation: pulse 2s ease-in infinite;
 	position: absolute;
 	bottom: 50px;
 	left: 50%;
@@ -29,31 +32,39 @@
 @-webkit-keyframes pulse {
 	0% {
 		-webkit-transform: rotate(-90deg) scale(1);
-
+		    -ms-transform: rotate(-90deg) scale(1);
+				transform: rotate(-90deg) scale(1);
 	}
 	50% {
 		-webkit-transform: rotate(-90deg) scale(0.8);
-
+		    -ms-transform: rotate(-90deg) scale(0.8);
+				transform: rotate(-90deg) scale(0.8);
 	}
 	100% {
 		-webkit-transform: rotate(-90deg) scale(1);
-
+		    -ms-transform: rotate(-90deg) scale(1);
+				transform: rotate(-90deg) scale(1);
 	}
 }
 
-@-webkit-keyframes pulsate {
-    0% {
-    	-webkit-transform: rotate(-90deg) scale(0.8, 0.8); 
-    	opacity: 0.5;
-    }
-    50% {
-    	opacity: 1.0;
-    }
-    100% {
-    	-webkit-transform: rotate(-90deg) scale(1.2, 1.2); 
-    	opacity: 0.5;
-    }
+@keyframes pulse {
+	0% {
+		-webkit-transform: rotate(-90deg) scale(1);
+		    -ms-transform: rotate(-90deg) scale(1);
+				transform: rotate(-90deg) scale(1);
+	}
+	50% {
+		-webkit-transform: rotate(-90deg) scale(0.8);
+		    -ms-transform: rotate(-90deg) scale(0.8);
+				transform: rotate(-90deg) scale(0.8);
+	}
+	100% {
+		-webkit-transform: rotate(-90deg) scale(1);
+		    -ms-transform: rotate(-90deg) scale(1);
+				transform: rotate(-90deg) scale(1);
+	}
 }
+
 
 .splash {
 	width: 100%;
@@ -122,44 +133,24 @@
 	color: white;
 	text-transform: uppercase;
 	margin-bottom: 30px;
-	font-weight: 100;
+	font-weight: 300;
 	letter-spacing: 3px;
 	z-index: 120;
 	-webkit-animation-duration: 1500ms;
   	-webkit-animation-delay: 1s;
 }
 
-.splash .intro img {
-	display: block;
-	margin: 0px auto 40px auto;
-}
-
 .splash .intro h1 {
 	font-size: 2em;
 	color: white;
 	text-transform: uppercase;
-	font-weight: 100;
+	font-weight: 400;
 	letter-spacing: 3px;
 	line-height: 2.7em;
-}
-
-.splash .intro h1 span {
-	padding: 15px;
+	padding: 0px 15px;
 	margin: 0px;
 	background: rgba(37, 40, 43, 0.8);
-	line-height: auto;
-	font-weight: 200;
-	position: relative;
 }
-
-.splash .intro h1 span:first-child {
-	left: -20px;
-}
-
-.splash .intro h1 span:not(:first-child) {
-	left: 20px;
-}
-
 
 .splash .swiper-container {
 	width: 100%;
@@ -173,12 +164,4 @@
 
 .splash .splash-1  {
 	background-image: url(../resources/splash-1.jpg);
-}
-
-.splash .splash-2  {
-	background-image: url(../resources/splash-2.jpg);
-}
-
-.splash .splash-3  {
-	background-image: url(../resources/splash-3.jpg);
 }

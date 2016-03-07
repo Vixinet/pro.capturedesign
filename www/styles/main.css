@@ -4,13 +4,18 @@ html, body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
-	
+	font-family: "Lato", serif;
+	background-color: #252A2B;
 }
 
 body {
 	margin: 0px;
 	padding: 0px;
 	overflow: hidden;
+}
+
+.section {
+	background: white;
 }
 
 a:hover {
@@ -47,7 +52,7 @@ a:hover {
 
 .header .right a {
 	color: black;
-	font-weight: 200;
+	font-weight: 400;
 	font-size: 10pt;
 	cursor: pointer;
 
@@ -66,7 +71,7 @@ a:hover {
 .header .menu .cell a {
 	font-size: 20pt;
 	color: black;
-	font-weight: 100;
+	font-weight: 300;
 	text-transform: uppercase;
 	height: 104px;
 	line-height: 104px;
@@ -80,6 +85,9 @@ a:hover {
 	padding-top: 104px;
 }
 
+.section-contact .footer a {
+	font-weight: 400;
+}
 
 .res {
 	background: orange;
@@ -117,4 +125,7 @@ a:hover {
 		margin-top : 30px !important;
 	}
 
+	.section-work img.logo {
+		width: 100px !important;
+	}
 }
