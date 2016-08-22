@@ -1,0 +1,160 @@
+body {
+    font-family: 'Raleway', serif;
+    padding-top: 90px;
+}
+
+body:after {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top:0px;
+    background: url(/img/bg-pattern-01.png) repeat top left;
+    z-index: 2;
+}
+
+main, footer {
+    position: relative;
+    z-index: 4;
+}
+
+body, a, a:hover, a:visited, a:active, a:focus {
+    color: #414753;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Museo', serif;
+}
+
+nav .navbar-brand {
+    padding: 15px; 
+    height: 90px;
+}
+
+
+nav .navbar-brand img {
+    max-height: 100%;
+}
+
+nav ul.nav a {
+    padding: 35px 15px;
+}
+
+nav .navbar-toggle {
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+@media only screen and (max-width: 768px) {
+    nav ul.nav a {
+        padding: 10px 15px !important;
+    }
+
+    nav ul.nav li.lang {
+        margin-left: 0px !important;
+    }
+
+    nav ul.nav a span {
+        display:inline !important;
+    }
+}
+
+nav ul.nav li.lang {
+    margin-left: 40px;
+}
+
+main {
+    background: url(/img/bg-pattern-02.jpg) repeat top left white;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+section > h1, section > h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+section > h2 + *:not(.lead), section > h2 + p.lead + * {
+    margin-top: 50px !important;
+}
+
+section.projects {
+    padding: 0px;
+}
+
+section.contact {
+    background: white;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .075)
+}
+
+section.team img {
+    border: 20px white solid;
+    border-radius: 200px;
+    margin-bottom: 50px;
+    max-width: 100%;
+}
+
+section.team .container h3, section.team .container p {
+    margin: 0px;
+}
+
+section.customers a {
+    font-weight: bold;
+}
+
+footer {
+    background: rgba(33,35,36,1);
+}
+
+footer *:not(.heart) {
+    color: white !important;
+}
+
+footer a.social {
+    margin-right: 20px;
+}
+
+footer .wp-posts {
+    margin-bottom: 50px;
+}
+
+footer .wp-posts .post img {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 300px;
+}
+
+footer .wp-posts .post {
+    margin: 0px 8px;
+}
+
+.quote-sign {
+    font-size: 50px !important;
+    height: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    section.team div:not(:first-child) > img {
+        margin-top: 70px;
+    }
+    footer .wp-posts .post {
+        display: block;
+        margin: 15px 0px;
+    }
+    footer .wp-posts .post img {
+        max-height: 100%;
+    }
+
+    footer .copyright {
+        margin-top: 50px;
+        margin-bottom: 25px;
+        border-top: 0.5px solid white;
+        border-bottom: 0.5px solid white;
+        padding: 25px 0px 15px 0px;
+    }
+}

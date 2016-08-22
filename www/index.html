@@ -1,406 +1,559 @@
 <!doctype html>
-<html lang="en">
+<!--[if lt IE 7]>			<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>				 <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:locale" content="en_GB">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Interior Design &amp; 3D Visualizations">
+		<meta property="og:description" content="We create elegant and practical interior design solutions with help of advanced 3D tools. Our detailed 3D visualizations helps to see and evaluate the design in advance. Our drawings ensure smooth execution of the design.">
+        <meta property="og:url" content="http://www.capturedesign.pro">
+        <meta property="og:image" content="http://www.capturedesign.pro/img/socialmedia-en.jpg">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Interior Design &amp; 3D Visualizations">
+        <meta name="twitter:description" content="We create elegant and practical interior design solutions with help of advanced 3D tools. Our detailed 3D visualizations helps to see and evaluate the design in advance. Our drawings ensure smooth execution of the design.">
+        <meta name="twitter:url" content="http://www.capturedesign.pro">
+        <meta name="twitter:image:src" content="http://www.capturedesign.pro/img/socialmedia-en.jpg">
 		<title>Capture Design</title>
-		<link rel="stylesheet" type="text/css" href="scripts/vendor/animate.css/animate.min.css" />
-		<link rel="stylesheet" type="text/css" href="scripts/vendor/bootstrap/dist/css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="scripts/vendor/swiper/dist/css/swiper.min.css" />
-		<link rel="stylesheet" type="text/css" href="styles/main.css" />
-		<link rel="stylesheet" type="text/css" href="styles/splash.css" />
-		<link rel="stylesheet" type="text/css" href="styles/work.css" />
-		<link rel="stylesheet" type="text/css" href="styles/about.css" />
-		<link rel="stylesheet" type="text/css" href="styles/contact.css" />
-		<link rel="stylesheet" type="text/css" href="styles/font-lato.css" />
-
-		<meta property="og:locale"       content="en_US" />
-		<meta property="og:type"         content="website" />
-		<meta property="og:title"        content="Interior Design and Catalog Renderings" />
-		<meta property="og:description"  content="Capture Design is an innovative team of interior designers. In our work, we combine market analysis, artistic education and latest digital technology." />
-		<meta property="og:url"          content="http://www.capturedesign.pro" />
-		<meta property="og:image"        content="http://www.capturedesign.pro/resources/media/image-1.jpg?t=12345?" />
-		<meta property="og:image"        content="http://www.capturedesign.pro/resources/media/image-2.jpg?t=12345?" />
-		<meta property="og:image"        content="http://www.capturedesign.pro/resources/media/image-3.jpg?t=12345?" />
-		<!-- <meta property="fb:app_id"       content="1442439216059238" /> -->
-
-		<meta name="twitter:card"        content="summary_large_image" />
-		<meta name="twitter:title"       content="Interior Design and Catalog Renderings" />
-		<meta name="twitter:description" content="Capture Design is an innovative team of interior designers. In our work, we combine market analysis, artistic education and latest digital technology." />
-		<meta name="twitter:url"         content="http://www.capturedesign.pro" />
-		<meta name="twitter:image:src"   content="http://www.capturedesign.pro/resources/media/image-1.jpg?t=12345?" />
-
-		<link rel="shortcut icon" href="resources/favicon-16.ico" type="image/x-icon">
-		<link rel="icon" href="resources/favicon-16.ico" type="image/x-icon">
-
-		<!-- Embended content -->
-		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<link rel="stylesheet" href="/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/css/font-museo-latin.css">
+		<link rel="stylesheet" href="/css/font-raleway.css">
+		<link rel="stylesheet" href="/css/fancybox.css">
+		<link rel="stylesheet" href="/css/main.css">
+		<link rel="stylesheet" href="/css/main-slider.css">
+		<script src="/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 	</head>
 	<body>
-		<div class="header hidden-xs" style="display:none">
-			<div class="left">
-				<a href="#section-splash"><img src="resources/logo.png" class="logo" /></a>
-			</div>
-			<div class="right">
-				<a lang="en">EN</a>
-				<a lang="fi">FI</a>
-				<a lang="ru">RU</a>
-			</div>
-			<div class="container menu">
-				<div class="row">
-					<div class="cell col-sm-2 col-sm-offset-3">
-						<a en="About" fi="Meistä" ru="О Нас" class="active" href="#section-about">About</a>
-					</div>
-					<div class="cell col-sm-2">
-						<a en="Work" fi="Projektit" ru="Работы" class="" href="#section-work">Work</a>
-					</div>
-					<div class="cell col-sm-2">
-						<a en="Contact" fi="Yhteystiedot" ru="Контакты" class="" href="#section-contact">Contact</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="section section-splash splash swiper-container">
-			<div class="intro">
-				<div class="inner">
-					<h1 en="Interior Design &amp; 3D Visualizations" fi="Sisustussuunnittelu ja 3D-visualisointipalvelut" ru="Дизайн интерьера и 3D визуализации">
-						Interior Design &amp; 3D Rendering
-					</h1>
-				</div>
-			</div>
-			<div class="details">
-				<h1>Forget the words...</h1>
-			</div>
-			<div class="arrow-down"></div>
-			<div class="swiper-wrapper">
-				<div class="swiper-slide splash-1"></div>
-			</div>
-		</div>
-
-		<div class="section section-about container with-header">
+		<!--[if lt IE 8]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-4 col">
-						<h2 en="Agile" fi="Ketterä" ru="Эффективно">Agile</h2>
-						<p only="en">We are a team of design professionals. We combine in our work artistic education and latest digital technology, keeping our customers' needs at the forefront.</p>
-						<p only="fi">Olemme muotoilun ammattilaisista koostuva tehokas duo. Työssämme yhdistyvät suunnittelu ja nykyaikainen teknologia - asiakkaamme tarpeet etusijalle asettaen. </p>
-						<p only="ru">Мы - это команда молодых неутомимых дизайнеров. В нашей работе мы совмещаем творческое мышление и последние технологические достижения, неизменно ставя интересы и удовлетворение заказчика во главу угла.</p>
-					</div>
-					<div class="col-xs-12 col-sm-4 col">
-						<h2 en="Elegant" fi="Elegantti" ru="ЭЛЕГАНТНО">Elegant</h2>
-						<p only="en">Through collaborative teamwork with our partners and clients we execute functionaland aesthetical design solutions for offices, restaurants, hotels and homes.</p>
-						<p only="fi">Asiakkaidemme ja yhteistyökumppaniemme kanssa, tuotamme toimivia ja esteettisiä ratkaisuja julkisiin ja yksityisiin tiloihin.</p>
-						<p only="ru">Мы работаем в тесном сотрудничестве с нашими клиентами и партнерами для создания эффектных и функциональных дизайн-проектов для офисов, ресторанов, отелей и жилых пространств.</p>
-					</div>
-					<div class="col-xs-12 col-sm-4 col">
-						<h2 en="Modern" fi="Nykyaikainen" ru="Современно">Modern</h2>
-						<p only="en">Our key to success lies in efficient application of advanced 3D software. 3D visualizations help evaluate the design and present it to the customer in the most efficient way.</p>
-						<p only="fi">Menestyksemme salaisuus piilee nykyaikaisissa 3D-työkaluissa. Havainnollisten kuvien ansiosta suunnittelu ja toteutus sujuvat mutkattomasti.</p>
-						<p only="ru">Наш ключ к успеху лежит во эффективном использовании 3D моделирования. Реалистичные 3D визуализации помогают оценить в деталях будущий дизайн и представить его на одобрение заказчика самым информативным способом.</p>
-					</div>
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand no-border" href="#">
+						<img src="/img/logo.png" />
+					</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="http://blog.capturedesign.pro">Blog</a></li>
+						<li class="hidden-xs"><a href="https://www.facebook.com/capturedesignoy/" target="_blank"><img src="/img/ico-facebook.png" /></a></li>
+						<li class="hidden-xs"><a href="https://www.linkedin.com/company/capture-design-oy" target="_blank"><img src="/img/ico-linkedin.png" /></a></li>
+						<li class="hidden-xs"><a href="https://www.instagram.com/capturedesignoy/" target="_blank"><img src="/img/ico-instagram.png" /></a></li>
+						<li class="lang"><a href="/fi">FI</a></li>
+						<li><a href="/ru">RU</a></li>
+					</ul>
 				</div>
 			</div>
-		</div>
+		</nav>
 
-		<div class="section section-work with-header">
-			<div class="swiper-container gallery-top">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide" style="background-image:url(resources/work-5.jpg); background-position: center bottom;">
-						<div class="container">
-							<div class="left">
-								<div class="box">
-									<h1 en="LED Inspirations" fi="LED Inspirations" ru="LED Inspirations">LED Inspirations</h1>
-									<h2 en="Set of Marketing Images for a catalog" fi="Tuotekuvaston myynti- ja markkinointivisualisoinnit" ru="Набор рекламных материалов для каталога">Set of Marketing Images for a catalog</h2>
-									<p only="en">LED Inspirations is a young company based in Texas, USA, producing new generation of LED lighting fixtures.</p>
-									<p only="fi">LED Inspirations on texasilainen LED-valaisimia tuottava yritys. Yhteistyössä yrityksen kanssa tuotimme myynti- ja markkinointikuvat yrityksen uutta tuotekuvastoa varten. Atlantin ylittävä yhteistyö alkoi keväällä 2015.</p>
-									<p only="ru">LED Inspirations это молодая компания, расположенная в штате Техас, в США, специализирующаяся на производстве светодиодных светильников.</p>
-									<p only="en">Upon their request, we created a series of marketing images for the company’s new upcoming catalog. The project included designing, 3D modeling and rendering of 16 spaces with client’s products installed in the scenes. We aimed to show diversity of possible applications, as well as variety of interior styles and functions, creating reference images for different customer segments. Displayed here are some of our favorite examples from the project. </p>
-									<p only="fi">Asiakkaamme tilauksesta suunnittelimme ja visualisoimme 16 erilaista tilaa, joihin yrityksen LED-valaisimet integroitiin. Tavoitteena oli tuottaa kattava valikoima julkisia ja yksityisiä tiloja ja valaisinten käyttösovelluksia, jotka inspiroisivat yrityksen asiakkaita. Valaisinten pituuden ja ulkopintojen värin sovellettavuus takasivat suunnittelulle lähes rajattomat mahdollisuudet.</p>
-									<p only="ru">LED Inspirations обратились к нам с просьбой создать серию рекламных материалов для нового каталога компании. В рамки проекта входило проектирование, 3D моделирование и визуализация 16 пространств, с установленными в них светильниками компании-заказчика. Наша цель была показать вариации возможного применения светильников, а также помещения с различной стилистикой и функцией, создавая изображения для различных сегментов рынка. Вашему вниманию представлены несколько лучших работ из данной серии. </p>
-									<a class="less">X</a>
+		<main>
+			<section class="about">
+				<h1 class="text-center">Interior Design &amp; 3D Visualization</h1>
+				<p class="text-center lead">Smooth Work, Impressive Results</p>
+			</section>
+
+			<section class="projects">
+				<div id="projects-slider" class="projects-slider">
+					<ul class="slidee">
+						<li>
+							<a href="#project-1" class="fancybox-trigger"><img src="/img/project-1-thumb.jpg"></a>
+							<a href="" class="ov-open">Learn more</a>
+							<div class="overlay">
+								<a href="" class="ov-close">&#160;</a>
+								<div class="ov-wrapper">
+									<div class="ov-inner text-center">
+										<p class="title">Client:</p>
+										<p><a href="http://www.workspace.fi/en/" target="_blank">Workspace Oy</a></p>
+										<p class="title">Location:</p>
+										<p>Helsinki</p>
+										<p class="title">Projects:</p>
+										<p>workspaces’ design and renovation</p>
+										<p class="title">Our Services:</p>
+										<p>detailed realistic 3D visualizations</p>
+										<p class="title">Result:</p>
+										<p>advanced design evaluation and approval<br/>through 3D scenes; impressive illustrative<br/>materials for customers’ presentations</p>
+									</div>
 								</div>
 							</div>
-							<div class="right hidden-xs"></div>
-						</div>
-						<img class="logo" src="resources/logo-ledi.png" />
-						<a en="Information" fi="Lue lisää" ru="Подробности" class="more">Information</a>
-					</div>
-					<div class="swiper-slide" style="background-image:url(resources/work-4.jpg); background-position: center bottom;">
-						<div class="container">
-							<div class="left">
-								<div class="box">
-									<h1 en="LED Inspirations" fi="LED Inspirations" ru="LED Inspirations">LED Inspirations</h1>
-									<h2 en="Set of Marketing Images for a catalog" fi="Tuotekuvaston myynti- ja markkinointivisualisoinnit" ru="Набор рекламных материалов для каталога">Set of Marketing Images for a catalog</h2>
-									<p only="en">LED Inspirations is a young company based in Texas, USA, producing new generation of LED lighting fixtures.</p>
-									<p only="fi">LED Inspirations on texasilainen LED-valaisimia tuottava yritys. Yhteistyössä yrityksen kanssa tuotimme myynti- ja markkinointikuvat yrityksen uutta tuotekuvastoa varten. Atlantin ylittävä yhteistyö alkoi keväällä 2015.</p>
-									<p only="ru">LED Inspirations это молодая компания, расположенная в штате Техас, в США, специализирующаяся на производстве светодиодных светильников.</p>
-									<p only="en">Upon their request, we created a series of marketing images for the company’s new upcoming catalog. The project included designing, 3D modeling and rendering of 16 spaces with client’s products installed in the scenes. We aimed to show diversity of possible applications, as well as variety of interior styles and functions, creating reference images for different customer segments. Displayed here are some of our favorite examples from the project. </p>
-									<p only="fi">Asiakkaamme tilauksesta suunnittelimme ja visualisoimme 16 erilaista tilaa, joihin yrityksen LED-valaisimet integroitiin. Tavoitteena oli tuottaa kattava valikoima julkisia ja yksityisiä tiloja ja valaisinten käyttösovelluksia, jotka inspiroisivat yrityksen asiakkaita. Valaisinten pituuden ja ulkopintojen värin sovellettavuus takasivat suunnittelulle lähes rajattomat mahdollisuudet.</p>
-									<p only="ru">LED Inspirations обратились к нам с просьбой создать серию рекламных материалов для нового каталога компании. В рамки проекта входило проектирование, 3D моделирование и визуализация 16 пространств, с установленными в них светильниками компании-заказчика. Наша цель была показать вариации возможного применения светильников, а также помещения с различной стилистикой и функцией, создавая изображения для различных сегментов рынка. Вашему вниманию представлены несколько лучших работ из данной серии. </p>
-									<a class="less">X</a>
+						</li>
+						<li>
+							<a href="#project-2" class="fancybox-trigger"><img src="/img/project-2-thumb.jpg"></a>
+							<a href="" class="ov-open">Learn more</a>
+							<div class="overlay">
+								<a href="" class="ov-close">&#160;</a>
+								<div class="ov-wrapper">
+									<div class="ov-inner text-center">
+										<p class="title">Client:</p>
+										<p><a href="http://agilework.fi/" target="_blank">Agile Work Oy</a></p>
+										<p class="title">Location:</p>
+										<p>Helsinki</p>
+										<p class="title">Projects:</p>
+										<p>workspace reorganization; interior design & <br/>branding for working environments</p>
+										<p class="title">Our Services:</p>
+										<p>interior design, concept boards, 3D visualizations;<br/>technical drawings: layouts, elevations,<br/>sections, material and furniture lists</p>
+										<p class="title">Result:</p>
+										<p>smooth execution of renovation;<br/>modern office environments improved users’<br/>working conditions and satisfaction rates</p>
+									</div>
 								</div>
 							</div>
-							<div class="right hidden-xs"></div>
-						</div>
-						<img class="logo" src="resources/logo-ledi.png" />
-						<a en="Information" fi="Lue lisää" ru="Подробности" class="more">Information</a>
-					</div>
-					<div class="swiper-slide" style="background-image:url(resources/work-6.jpg); background-position: center bottom;">
-						<div class="container">
-							<div class="left">
-								<div class="box">
-									<h1 en="LED Inspirations" fi="LED Inspirations" ru="LED Inspirations">LED Inspirations</h1>
-									<h2 en="Set of Marketing Images for a catalog" fi="Tuotekuvaston myynti- ja markkinointivisualisoinnit" ru="Набор рекламных материалов для каталога">Set of Marketing Images for a catalog</h2>
-									<p only="en">LED Inspirations is a young company based in Texas, USA, producing new generation of LED lighting fixtures.</p>
-									<p only="fi">LED Inspirations on texasilainen LED-valaisimia tuottava yritys. Yhteistyössä yrityksen kanssa tuotimme myynti- ja markkinointikuvat yrityksen uutta tuotekuvastoa varten. Atlantin ylittävä yhteistyö alkoi keväällä 2015.</p>
-									<p only="ru">LED Inspirations это молодая компания, расположенная в штате Техас, в США, специализирующаяся на производстве светодиодных светильников.</p>
-									<p only="en">Upon their request, we created a series of marketing images for the company’s new upcoming catalog. The project included designing, 3D modeling and rendering of 16 spaces with client’s products installed in the scenes. We aimed to show diversity of possible applications, as well as variety of interior styles and functions, creating reference images for different customer segments. Displayed here are some of our favorite examples from the project. </p>
-									<p only="fi">Asiakkaamme tilauksesta suunnittelimme ja visualisoimme 16 erilaista tilaa, joihin yrityksen LED-valaisimet integroitiin. Tavoitteena oli tuottaa kattava valikoima julkisia ja yksityisiä tiloja ja valaisinten käyttösovelluksia, jotka inspiroisivat yrityksen asiakkaita. Valaisinten pituuden ja ulkopintojen värin sovellettavuus takasivat suunnittelulle lähes rajattomat mahdollisuudet.</p>
-									<p only="ru">LED Inspirations обратились к нам с просьбой создать серию рекламных материалов для нового каталога компании. В рамки проекта входило проектирование, 3D моделирование и визуализация 16 пространств, с установленными в них светильниками компании-заказчика. Наша цель была показать вариации возможного применения светильников, а также помещения с различной стилистикой и функцией, создавая изображения для различных сегментов рынка. Вашему вниманию представлены несколько лучших работ из данной серии. </p>
-									<a class="less">X</a>
+						</li>
+						<li>
+							<a href="#project-3" class="fancybox-trigger"><img src="/img/project-3-thumb.jpg"></a>
+							<a href="" class="ov-open">Learn more</a>
+							<div class="overlay">
+								<a href="" class="ov-close">&#160;</a>
+								<div class="ov-wrapper">
+									<div class="ov-inner text-center">
+										<p class="title">Client:</p>
+										<p><a href="http://carolarytsola.com/" target="_blank">Interior Architecture Office Carola-Rytsölä Oy</a></p>
+										<p class="title">Location:</p>
+										<p>Helsinki</p>
+										<p class="title">Projects:</p>
+										<p>interior design for residential & public spaces</p>
+										<p class="title">Our Services:</p>
+										<p>detailed tasteful 3D visualizations</p>
+										<p class="title">Result:</p>
+										<p>advanced design evaluation through 3D scenes;<br/>impressive presentation and marketing materials;<br/>smooth communication between interior architects<br/>and their customers </p>
+									</div>
 								</div>
 							</div>
-							<div class="right hidden-xs"></div>
-						</div>
-						<img class="logo" src="resources/logo-ledi.png" />
-						<a en="Information" fi="Lue lisää" ru="Подробности" class="more">Information</a>
-					</div>
-					<div class="swiper-slide" style="background-image:url(resources/work-2.jpg); background-position: center bottom;">
-						<div class="container">
-							<div class="left">
-								<div class="box">
-									<h1 en="Scanio Oy" fi="Scanio Oy" ru="Scanio Oy">Scanio Oy</h1>
-									<h2 en="Interior Design for Luxury Cottages in Lapland" fi="Lomamökkien sisustussuunnitelma" ru="Дизайн интерьера для сказочных коттеджей в Лапландии">Interior Design for Luxury Cottages in Lapland</h2>
-									<p only="en">In August 2015 Scanio Oy opened to the public four cottage houses in Saariselkä, Lapland, named Karhupesä (Bear Den, - Fin). Capture Design served as the main designer for the project, and once again 3D modeling and renderings played a significant role during the process. </p>
-									<p only="fi">Scanio Oy rakennutti Suomen Saariselälle neljä vuokrattavaa lomamökkiä, joiden sisustussuunnittelusta vastasi Capture Design. 3D-visualisoinnilla oli merkittävä rooli projektin suunnittelussa ja etenemisessä. Karhunpesiksi nimetyt mökit valmistuivat kesällä 2015.</p>
-									<p only="ru">В августе 2015 года компания Scanio Oy представила на суд общественности четыре новеньких коттеджа в поселке Саариселка (Saariselkä) в Лапландии, именуемых Karhupesä (Медвежья берлога, - пер. с фин.). Capture Design были выбраны главным проектировщиком интерьеров по проекту и, как и раньше, 3D визуализации играли очень важную роль в процессе дизайна. </p>
-									<p only="en">The main goal was to create brutal masculine interiors, resembling the real Bear Den. Following that idea, we executed full interior design project for the customer. The project included all the technical drawings, selection of the furniture and materials, and, of course, 3D visualization for every room in the buildings. Application of 3D Modeling and Rendering was very important aspect for Scanio Oy since the customer wanted to see in advance how the chosen solutions, colors and material combinations will work out together. Successful renovated and decorated four houses are now available for rent at the northern frontier of Finland.</p>
-									<p only="fi">Asiakkaan toiveiden mukaisesti suunnittelimme sisätilat, joiden tyylillisenä tavoitteena oli saavuttaa karhunpesämäinen kodikkuus. Tuotimme täydet työpiirustukset sekä luettelot ja laskelmat projektin toteutusta varten. Jokaisesta huoneesta teetettiin 3D-visualisoinnit, joiden avulla projektin eri osapuolten kanssa voitiin neuvotella joustavasti sisustusratkaisuista. Näin vältettiin turhaa työtä ja säästyttiin ikäviltä yllätyksiltä, kun projektin lopputulos oli jo ennakkoon asiakkaan tiedossa.</p>
-									<p only="ru">Основная задача была создать уютные брутальные мужские интерьеры, напоминающие настоящую медвежью берлогу. Следуя данному стилевому направлению, мы разработали полный рабочий дизайн проект для заказчика. В дизайн проект входили все рабочие чертежи, спецификация мебели и материалов, и конечно же, 3D визуализации каждого помещения коттеджей. Использование 3D моделирования было очень важным моментом для Scanio Oy, потому что заказчик хотел заранее увидеть, как выбранные цвета, материалы и мебель будут смотреться вместе. Успешно отремонтированные и обставленные коттеджи теперь доступны для аренды на затворках Лапландии, освещаемые мистическим северным сиянием.</p>
-									<a class="less">X</a>
+						</li>
+						<li>
+							<a href="#project-4" class="fancybox-trigger"><img src="/img/project-4-thumb.jpg"></a>
+							<a href="" class="ov-open">Learn more</a>
+							<div class="overlay">
+								<a href="" class="ov-close">&#160;</a>
+								<div class="ov-wrapper">
+									<div class="ov-inner text-center">
+										<p class="title">Client:</p>
+										<p><a href="http://ledi.lighting/" target="_blank">LEDI</a></p>
+										<p class="title">Location:</p>
+										<p>Texas, USA</p>
+										<p class="title">Projects:</p>
+										<p>launch of the new LED-lights collection</p>
+										<p class="title">Our Services:</p>
+										<p>interior design and photo-realistic 3D visualizations</p>
+										<p class="title">Result:</p>
+										<p>diverse interior design solutions for over<br/>15 spaces with LED lights integration;<br/>creative presentation of the application possibilities<br/>through realistic 3D renderings; impressive illustrative<br/>materials for catalogue and web page;<br/>efficient sales & marketing</p>
+									</div>
 								</div>
 							</div>
-							<div class="right hidden-xs"></div>
-						</div>
-						<img class="logo" src="resources/logo-scanio.png" />
-						<a en="Information" fi="Lue lisää" ru="Подробности" class="more">Information</a>
-					</div>
-					<div class="swiper-slide" style="background-image:url(resources/work-3.jpg); background-position: center bottom;">
-						<div class="container">
-							<div class="left">
-								<div class="box">
-									<h1 en="Scanio Oy" fi="Scanio Oy" ru="Scanio Oy">Scanio Oy</h1>
-									<h2 en="Interior Design for Luxury Cottages in Lapland" fi="Lomamökkien sisustussuunnitelma" ru="Дизайн интерьера для сказочных коттеджей в Лапландии">Interior Design for Luxury Cottages in Lapland</h2>
-									<p only="en">In August 2015 Scanio Oy opened to the public four cottage houses in Saariselkä, Lapland, named Karhupesä (Bear Den, - Fin). Capture Design served as the main designer for the project, and once again 3D modeling and renderings played a significant role during the process. </p>
-									<p only="fi">Scanio Oy rakennutti Suomen Saariselälle neljä vuokrattavaa lomamökkiä, joiden sisustussuunnittelusta vastasi Capture Design. 3D-visualisoinnilla oli merkittävä rooli projektin suunnittelussa ja etenemisessä. Karhunpesiksi nimetyt mökit valmistuivat kesällä 2015.</p>
-									<p only="ru">В августе 2015 года компания Scanio Oy представила на суд общественности четыре новеньких коттеджа в поселке Саариселка (Saariselkä) в Лапландии, именуемых Karhupesä (Медвежья берлога, - пер. с фин.). Capture Design были выбраны главным проектировщиком интерьеров по проекту и, как и раньше, 3D визуализации играли очень важную роль в процессе дизайна. </p>
-									<p only="en">The main goal was to create brutal masculine interiors, resembling the real Bear Den. Following that idea, we executed full interior design project for the customer. The project included all the technical drawings, selection of the furniture and materials, and, of course, 3D visualization for every room in the buildings. Application of 3D Modeling and Rendering was very important aspect for Scanio Oy since the customer wanted to see in advance how the chosen solutions, colors and material combinations will work out together. Successful renovated and decorated four houses are now available for rent at the northern frontier of Finland.</p>
-									<p only="fi">Asiakkaan toiveiden mukaisesti suunnittelimme sisätilat, joiden tyylillisenä tavoitteena oli saavuttaa karhunpesämäinen kodikkuus. Tuotimme täydet työpiirustukset sekä luettelot ja laskelmat projektin toteutusta varten. Jokaisesta huoneesta teetettiin 3D-visualisoinnit, joiden avulla projektin eri osapuolten kanssa voitiin neuvotella joustavasti sisustusratkaisuista. Näin vältettiin turhaa työtä ja säästyttiin ikäviltä yllätyksiltä, kun projektin lopputulos oli jo ennakkoon asiakkaan tiedossa.</p>
-									<p only="ru">Основная задача была создать уютные брутальные мужские интерьеры, напоминающие настоящую медвежью берлогу. Следуя данному стилевому направлению, мы разработали полный рабочий дизайн проект для заказчика. В дизайн проект входили все рабочие чертежи, спецификация мебели и материалов, и конечно же, 3D визуализации каждого помещения коттеджей. Использование 3D моделирования было очень важным моментом для Scanio Oy потому что заказчик хотел заранее увидеть, как выбранные цвета, материалы и мебель будут смотреться вместе. Успешно отремонтированные и обставленные коттеджи теперь доступны для аренды на затворках Лапландии, освещаемые мистическим северным сиянием.</p>
-									<a class="less">X</a>
+						</li>
+						<li>
+							<a href="#project-5" class="fancybox-trigger"><img src="/img/project-5-thumb.jpg"></a>
+							<a href="" class="ov-open">Learn more</a>
+							<div class="overlay">
+								<a href="" class="ov-close">&#160;</a>
+								<div class="ov-wrapper">
+									<div class="ov-inner text-center">
+										<p class="title">Client:</p>
+										<p><a href="http://ledi.lighting/" target="_blank">LEDI</a></p>
+										<p class="title">Location:</p>
+										<p>Texas, USA</p>
+										<p class="title">Projects:</p>
+										<p>launch of the new LED-lights collection</p>
+										<p class="title">Our Services:</p>
+										<p>interior design and photo-realistic 3D visualizations</p>
+										<p class="title">Result:</p>
+										<p>diverse interior design solutions for over<br/>15 spaces with LED lights integration;<br/>creative presentation of the application possibilities<br/>through realistic 3D renderings; impressive illustrative<br/>materials for catalogue and web page;<br/>efficient sales & marketing</p>
+									</div>
 								</div>
 							</div>
-							<div class="right hidden-xs"></div>
-						</div>
-						<img class="logo" src="resources/logo-scanio.png" />
-						<a en="Information" fi="Lue lisää" ru="Подробности" class="more">Information</a>
-					</div>
-					<div class="swiper-slide" style="background-image:url(resources/work-1.jpg);background-position: center bottom;">
-						<div class="container">
-							<div class="left">
-								<div class="box">
-									<h1 en="Nespresso Positive Cup Challenge" fi="Nespresso Positive Cup Challenge" ru="Конкурс Nespresso">Nespresso Positive Cup Challenge.</h1>
-									<h2 en="Unique coffee table in fresh living-room design" fi="DiveIn-sohvapöytä" ru="Уникальный журнальный стол – звезда любой гостиной">Unique coffee table in a fresh living-room design</h2>
-									<p only="en">In September 2015 we got to the finals of the Nespresso Positive Cup Challenge. The competition task was to create an interior design object using recycled Nespresso coffee capsules. We have designed and produced the “Dive-In” coffee table inspired by the coral reef of the Red Sea.</p>
-									<p only="fi">Syksyllä 2015 osallistuimme Nespresson järjestämään kilpailuun, jonka tavoitteena oli löytää Nespresso-kapseleille uusia kierrätysmahdollisuuksia. Capture Designin suunnittelema, koralliriutoista inspiraationsa saanut sohvapöytä, "Dive-In", pääsi kilpailussa finaaliin ja voitti yleisöäänestyksen.</p>
-									<p only="ru">В сентябре 2015 года мы прошли в финал конкурса Nespresso Positive Cup Challenge. Задача конкурса была создать объект дизайна интерьера из использованных кофейных капсул Nespresso. В рамках данного задания мы спроектировали и изготовили журнальный стол “Dive-In” вдохновленный красотой кораллового рифа Красного моря.</p>
-									<p only="en">During the beginning stage of the project 3D modeling was crucial tool for testing and polishing our design vision. Within the means of 3D Rendering we were able to visualize how our final piece will fit in the living-rooms of Scandinavian users.  The “Dive-In” coffee table was displayed in life among works of two other finalists at Habitare 2015.</p>
-									<p only="fi">Testasimme erilaisia ratkaisuja 3D-mallin avulla. Lopulta suunnittelimme ja visualisoimme näyttävät kuvat, joissa kalusteen istuvuus skandinaaviseen sisustukseen saatettiin helposti havainnollistaa. "Dive-In"-kahvipöytä oli esillä vuoden 2015 Habitaressa ja sen jälkeen Nespresson liiketiloissa Helsingissä.</p>
-									<p only="ru">В начале проекта, 3D моделирование было очень важным инструментом для тестирования и оттачивания нашей дизайнерской задумки. Посредством 3D визуализаций мы смогли определить насколько удачно наш стол будет смотреться в интерьерах скандинавских гостиных. Реализованный прототип стола ”Dive-In” был выставлен в живую среди работ других финалистов на выставке мебели и света, Habitare 2015.</p>
-									<a class="less">X</a>
+						</li>
+						<li>
+							<a href="#project-6" class="fancybox-trigger"><img src="/img/project-6-thumb.jpg"></a>
+							<a href="" class="ov-open">Learn more</a>
+							<div class="overlay">
+								<a href="" class="ov-close">&#160;</a>
+								<div class="ov-wrapper">
+									<div class="ov-inner text-center">
+										<p class="title">Client:</p>
+										<p><a href="http://ledi.lighting/" target="_blank">LEDI</a></p>
+										<p class="title">Location:</p>
+										<p>Texas, USA</p>
+										<p class="title">Projects:</p>
+										<p>launch of the new LED-lights collection</p>
+										<p class="title">Our Services:</p>
+										<p>interior design and photo-realistic 3D visualizations</p>
+										<p class="title">Result:</p>
+										<p>diverse interior design solutions for over<br/>15 spaces with LED lights integration;<br/>creative presentation of the application possibilities<br/>through realistic 3D renderings; impressive illustrative<br/>materials for catalogue and web page;<br/>efficient sales & marketing</p>
+									</div>
 								</div>
 							</div>
-							<div class="right hidden-xs"></div>
-						</div>
-						<img class="logo" src="resources/logo-nespresso.png" />
-						<a en="Information" fi="Lue lisää" ru="Подробности" class="more">Information</a>
-					</div>
-					<div class="swiper-slide" style="background-image:url(resources/work-11.jpg); background-position: center top;">
-						<div class="container">
-							<div class="left">
-								<div class="box">
-									<h1 en="Sisustusarkkitehdit Gullstén-Inkinen Oy" fi="Sisustusarkkitehdit Gullstén-Inkinen Oy" ru="Студия дизайна интерьера Gullstén-Inkinen Oy">Sisustusarkkitehdit Gullstén-Inkinen Oy</h1>
-									<h2 en="3D Renderings for customer presentations" fi="Sisustusvisualisoinnit esitysmateriaalina" ru="3D Визуализации для презентаций">3D Renderings for customer presentations</h2>
-									<p only="en">3D Visualizations for the Burger King in Helsinki-Vantaa Airport were done in collaboration with Gullstén-Inkinen Oy. This project is one of our favorite examples from our ongoing collaboration. As 3D specialized subcontractor we provide Gullstén-Inkinen Oy with illustrative material for their client presentations, ensuring that their design decisions are shown in the most informative and attractive way.</p>
-									<p only="fi">Helsinki-Vantaan lentokentälle valmistuneen Burger Kingin ennakkomarkkinointia varten laaditut visualisoinnit tehtiin yhteistyössä Sisustusarkkitehdit Gullstén-Inkinen Oy:n kanssa. Tämä projekti on yksi esimerkki pitkäaikaisen yhteistyömme hedelmistä. Visuaalisen esitysmateriaalin tuottajana huolehdimme siitä, että 3D-visualisoinnit vastaavat tarkasti ja informatiivisesti yrityksen suunnitelmia. </p>
-									<p only="ru">3D Визуализации ресторана Burger King, расположенного в аэропорту Вантаа, в Хельсинки были выполнены в сотрудничестве с Gullstén-Inkinen Oy. Этот проект – это один из последних примеров нашего долговременного сотрудничества. Являясь профессионалами в сфере 3D моделирования, мы поставляем для дизайн-студии Gullstén-Inkinen Oy информативные и эффектные изображения для их встреч с заказчиками, обеспечивая наиболее выигрышную и информативную презентацию их проектов.</p>
-									<p only="en">Even though Interior design in such companies as Burger King is generally executed within the strict guidelines described in the franchise, for customer it is always important to see how the future premises will look like. A good presentation of the first design ideas sets the mood for the whole project.</p>
-									<p only="fi">Vaikka Burger Kingin kaltaisten, isojen yritysten liiketilat suunnitellaan usein tarkasti sisustusmanuaaliin perustaen, tilan käyttäjille on tärkeää nähdä lopputulos jo ennakkoon. Hyvä visuaalinen materiaali takaa onnistuneet valinnat ja mutkattoman projektin kulun. </p>
-									<p only="ru">Несмотря на то, что дизайн интерьера в таких случаях как ресторан Burger King обычно сильно ограничен четкими правилами компании, описанными во франшизе, для клиента всегда важно и ценно увидеть прототип возводимого объекта. Удачная изначальная презентация дизайн идей задает настрой на весь проект.</p>
-									<a class="less">X</a>
+						</li>
+						<li>
+							<a href="#project-7" class="fancybox-trigger"><img src="/img/project-7-thumb.jpg"></a>
+							<a href="" class="ov-open">Learn more</a>
+							<div class="overlay">
+								<a href="" class="ov-close">&#160;</a>
+								<div class="ov-wrapper">
+									<div class="ov-inner text-center">
+										<p class="title">Client:</p>
+										<p><a href="http://www.kvh-rakennus.fi/" target="_blank">KVH-Rakennus Oy</a></p>
+										<p class="title">Location:</p>
+										<p>Lieto</p>
+										<p class="title">Projects:</p>
+										<p>construction business: residential districts, raw-houses</p>
+										<p class="title">Our Services:</p>
+										<p>interior design; realistic exterior & interior 3D visualizations</p>
+										<p class="title">Result:</p>
+										<p>elegant interior design for the upcoming apartments;<br/>impressive marketing materials for the estate;<br/>boost for marketing & sales</p>
+									</div>
 								</div>
 							</div>
-							<div class="right hidden-xs"></div>
-						</div>
-						<img class="logo" src="resources/logo-gi.png" />
-						<a en="Information" fi="Lue lisää" ru="Подробности" class="more">Information</a>
-					</div>
-					<div class="swiper-slide" style="background-image:url(resources/work-9.jpg); background-position: center bottom;">
-						<div class="container">
-							<div class="left">
-								<div class="box">
-									<h1 en="Turun Uunisepät Oy" fi="Turun Uunisepät Oy" ru="Камины Uunisepät Oy">Turun Uunisepät Oy</h1>
-									<h2 en="Online-based design application for customers" fi="3D-verkkosovellus" ru="Онлайн-приложение для выбора каминов">Online-based design application for customers</h2>
-									<p only="en">Uunisepät is one of the leading producers of fireplaces in Finland. In summer 2014 Uunisepät launched a new online application, Takkadesigner, which aimed to improve the company’s customer service.</p>
-									<p only="fi">Turun Uunisepät on maailman suurin kaakeliuunien valmistaja. Keväällä 2014 yritys julkaisi uuden 3D-verkkosovelluksen, jonka tavoitteena oli parantaa Uuniseppien asiakaspalvelua.</p>
-									<p only="ru">Uunisepät - это один из лидирующих производителей каминов в Финляндии. Летом 2014 Uunisepät запустили новое онлайн-приложение - Takkadesigner, направленное на улучшение клиентского сервиса компании.</p>
-									<p only="en">We were chosen as the main designer for the project due to our ability to combine interior design and photorealistic 3D visualizations. According to the Uunisepät’s targeted customer segment, mainly located in Finland, we created interior in minimalistic Scandinavian manner. Once the space design was done, fireplaces were one by one digitally installed in the scene. We created multiple visualizations with different material and equipment combinations. Eventually, all images where assembled together and the final development of the application was done by Meiko Oy.</p>
-									<p only="fi">Capture Design voitti sovelluksen toteutusta koskevan tarjouskilpailun, jossa kykymme yhdistää suunnittelu ja 3D-visualisointi osoittautuivat kilpailun ratkaiseviksi tekijöiksi. Sovelluksen pohjaksi tuotimme suomalaiselle asiakaskunnalle kohdennetun, tyyliltään skandinaavisen sisustusratkaisun. Sisätila ja takat mallinnettiin yksityiskohtaisesti, minkä jälkeen visualisoimme useita eri väri- ja materiaaliratkaisuja. Näin tuotetut kuvat koottiin yhdeksi tiedostoksi. Varsinaisen sovelluksen tuottamisesta vastasi Meiko Oy.</p>
-									<p only="ru">Мы были выбраны как главный дизайнер по проекту благодаря нашей способности совмещать дизайн интерьера и фотореалистичные 3D визуализации. Согласно основной целевой аудитории Uunisepät, расположенной преимущественно в Финляндии, мы спроектировали интерьер в минималистичном скандинавском стиле. Когда дизайн интерьера был закончен, камины были один за одним по очереди «установлены» в сцену с интерьером. Таким образом мы создали множество визуализаций с различными комбинациями материалов и цветов. В итоге, все изображения были собраны воедино, и финальная отладка приложения была выполнена компанией Meiko Oy.</p>
-									<a class="less">X</a>
+						</li>
+						<li>
+							<a href="#project-8" class="fancybox-trigger"><img src="/img/project-8-thumb.jpg"></a>
+							<a href="" class="ov-open">Learn more</a>
+							<div class="overlay">
+								<a href="" class="ov-close">&#160;</a>
+								<div class="ov-wrapper">
+									<div class="ov-inner text-center">
+										<p class="title">Client:</p>
+										<p><a href="http://www.kvh-rakennus.fi/" target="_blank">KVH-Rakennus Oy</a></p>
+										<p class="title">Location:</p>
+										<p>Lieto</p>
+										<p class="title">Projects:</p>
+										<p>construction business: residential districts, raw-houses</p>
+										<p class="title">Our Services:</p>
+										<p>interior design; realistic exterior & interior 3D visualizations</p>
+										<p class="title">Result:</p>
+										<p>elegant interior design for the upcoming apartments;<br/>impressive marketing materials for the estate;<br/>boost for marketing & sales</p>
+									</div>
 								</div>
 							</div>
-							<div class="right hidden-xs"></div>
-						</div>
-						<img class="logo" src="resources/logo-uunisepat.jpg" />
-						<a en="Information" fi="Lue lisää" ru="Подробности" class="more">Information</a>
-					</div>
-					<div class="swiper-slide" style="background-image:url(resources/work-10.jpg); background-position: center bottom;">
-						<div class="container">
-							<div class="left">
-								<div class="box">
-									<h1 en="Turun Uunisepät Oy" fi="Turun Uunisepät Oy" ru="Камины Uunisepät Oy">Turun Uunisepät Oy</h1>
-									<h2 en="Online-based design application for customers" fi="3D-verkkosovellus" ru="Онлайн-приложение для выбора каминов">Online-based design application for customers</h2>
-									<p only="en">Uunisepät is one of the leading producers of fireplaces in Finland. In summer 2014 Uunisepät launched a new online application, Takkadesigner, which aimed to improve the company’s customer service.</p>
-									<p only="fi">Turun Uunisepät on maailman suurin kaakeliuunien valmistaja. Keväällä 2014 yritys julkaisi uuden 3D-verkkosovelluksen, jonka tavoitteena oli parantaa Uuniseppien asiakaspalvelua.</p>
-									<p only="ru">Uunisepät - это один из лидирующих производителей каминов в Финляндии. Летом 2014 Uunisepät запустили новое онлайн-приложение - Takkadesigner, которое было направлено на улучшение клиентского сервиса компании.</p>
-									<p only="en">We were chosen as the main designer for the project due to our ability to combine interior design and photorealistic 3D visualizations. According to the Uunisepät’s targeted customer segment, mainly located in Finland, we created interior in minimalistic Scandinavian manner. Once the space design was done, fireplaces were one by one digitally installed in the scene. We created multiple visualizations with different material and equipment combinations. Eventually, all images where assembled together and the final development of the application was done by Meiko Oy.</p>
-									<p only="fi">Capture Design voitti sovelluksen toteutusta koskevan tarjouskilpailun, jossa kykymme yhdistää suunnittelu ja 3D-visualisointi osoittautuivat kilpailun ratkaiseviksi tekijöiksi. Sovelluksen pohjaksi tuotimme suomalaiselle asiakaskunnalle kohdennetun, tyyliltään skandinaavisen sisustusratkaisun. Sisätila ja takat mallinnettiin yksityiskohtaisesti, minkä jälkeen visualisoimme useita eri väri- ja materiaaliratkaisuja. Näin tuotetut kuvat koottiin yhdeksi tiedostoksi. Varsinaisen sovelluksen tuottamisesta vastasi Meiko Oy.</p>
-									<p only="ru">Мы были выбраны как главный дизайнер по проекту благодаря нашей способности совмещать дизайн интерьера и фотореалистичные 3D визуализации. Согласно основной целевой аудитории Uunisepät, расположенной преимущественно в Финляндии, мы спроектировали интерьер в минималистичном скандинавском стиле. Когда дизайн интерьера был закончен, камины были один за одним по очереди «установлены» в сцену с интерьером. Таким образом мы создали множество визуализаций с различными комбинациями материалов и цветов. В итоге, все изображения были собраны воедино, и финальная отладка приложения была выполнена компанией Meiko Oy.</p>
-									<a class="less">X</a>
+						</li>
+						<li>
+							<a href="#project-9" class="fancybox-trigger"><img src="/img/project-9-thumb.jpg"></a>
+							<a href="" class="ov-open">Learn more</a>
+							<div class="overlay">
+								<a href="" class="ov-close">&#160;</a>
+								<div class="ov-wrapper">
+									<div class="ov-inner text-center">
+										<p class="title">Client:</p>
+										<p><a href="https://www.uunisepat.fi/" target="_blank">Turun Uunisepät Oy</a></p>
+										<p class="title">Location:</p>
+										<p>Turku</p>
+										<p class="title">Projects:</p>
+										<p>fireplace-design online-tool </p>
+										<p class="title">Our Services:</p>
+										<p>product range realistic 3D visualizations in the designed interior</p>
+										<p class="title">Result:</p>
+										<p>illustrative presentation for the whole fireplaces’<br/>collection, including all the available material<br/>and equipment options; improved customers’<br/>experience, marketing & sales boost</p>
+									</div>
 								</div>
 							</div>
-							<div class="right hidden-xs"></div>
-						</div>
-						<img class="logo" src="resources/logo-uunisepat.jpg" />
-						<a en="Information" fi="Lue lisää" ru="Подробности" class="more">Information</a>
-					</div>
-					<div class="swiper-slide" style="background-image:url(resources/work-12.jpg); background-position: center top;">
-						<div class="container">
-							<div class="left">
-								<div class="box">
-									<h1 en="Vahanen Yhtiöt" fi="Vahanen Yhtiöt" ru="Vahanen Yhtiöt">Vahanen Yhtiöt</h1>
-									<h2 en="Exterior Renderings for customer presentations" fi="Julkisivuvisualisoinnit esitysmateriaalina" ru="Экстерьерная визуализация для презентаций клиентам">Exterior Renderings for customer presentations</h2>
-									<p only="en">Vahanen Group is one of the biggest Finnish consulting organizations in construction and property field. Capture Design works as a subcontractor for Vahanen, creating attractive and informative renderings for customers’ presentations.</p>
-									<p only="fi">Vahanen on yksi Suomen suurimmista rakennus- ja kiinteistöalan asiantuntijaorganisaatioista. Vahasen yhteistyökumppanina tehtävänämme on tuottaa yrityksen uudis- ja korjausrakennuskohteiden visuaalinen esitysmateriaali.</p>
-									<p only="ru">Компания Vahanen это одна из крупнейший консалтинговых фирм Финляндии, специализирующихся на строительстве и недвижимости. Capture Design служит для Vahanen субподрядчиком, ответственным за создание презентационных материалов: красивых и информативных визуализаций.</p>
-									<p only="en">In the autumn 2015 Vahanen worked on a renovation for a courtyard at Hämeentie, Helsinki. Our task in the project was to visualize every detail of the upcoming renovation, and thus simplify the communication between the contractor and the customer. The existing courtyard and all the surroundings were precisely built in the computer scene based on the pictures and references. Further on, all the new buildings, furniture and materials were installed in the scene according to the Vahanen drawings and instructions. The whole set of seven renderings included both technically needed informative angles and cozy night-time marketing visualizations!</p>
-									<p only="fi">Syksyllä 2015 Vahanen laati uudistussuunnitelman Hämeentiellä sijaitsevan asuinalueen sisäpihalle. Kohteeseen oli tarkoituksena tehdä suuria muutoksia, joiden esittämiseksi tuotimme Vahaselle yksityiskohtaiset visualisoinnit sisäpihan uudistuksesta. Sisäpiha ja ympäröivät rakennukset mallinnettiin valokuvien pohjalta, minkä jälkeen uudet rakennukset ja materiaalit visualisoitiin Vahasen suunnitelman mukaan. Seitsemän kuvan sarjaan sisältyi niin teknisiä visualisointeja kuin tunnelmallisia markkinointikuviakin!</p>
-									<p only="ru">Осенью 2015 компания Vahanen  разработала план обновления жилого двора на улице Hämeentie, в Хельсинки. Нашей задачей в данном проекте было проиллюстрировать предстоящее обновление в малейших деталях, чтобы обеспечить эффектиное общение между подрядчиком и клиентом. Все существующие конструкции двора и окружение было в точности воссоздано в компьютерной сцене, основываясь на фотографиях местности. В последствии, все новые здания, мебель и материалы были инсталированы в сцену, согласно чертежам и инструкциям Vahanen.  Весь набор из 7 визуализаций включал как технические ракурсы, так и более уютные, вечерние презентационные изображения!</p>
-									<a class="less">X</a>
+						</li>
+						<li>
+							<a href="#project-10" class="fancybox-trigger"><img src="/img/project-10-thumb.jpg"></a>
+							<a href="" class="ov-open">Learn more</a>
+							<div class="overlay">
+								<a href="" class="ov-close">&#160;</a>
+								<div class="ov-wrapper">
+									<div class="ov-inner text-center">
+										<p class="title">Client:</p>
+										<p><a href="http://scanio.fi/" target="_blank">Scanio Oy</a></p>
+										<p class="title">Location:</p>
+										<p>Saariselkä, Lappland</p>
+										<p class="title">Projects:</p>
+										<p>“Villa Karhunpesä”, a set of 4 rental cottages</p>
+										<p class="title">Our Services:</p>
+										<p>full interior design: concept development, 3D visualizations,<br/>technical drawings: layouts, elevations, sections,<br/>material and furniture lists, project supervision</p>
+										<p class="title">Result:</p>
+										<p>smooth renovation process; welcoming bold interiors<br/>with the desired atmosphere; efficient marketing:<br/>constant tourists guest flow across the year</p>
+									</div>
 								</div>
 							</div>
-							<div class="right hidden-xs"></div>
-						</div>
-						<img class="logo" src="resources/logo-vahanen.jpg" />
-						<a en="Information" fi="Lue lisää" ru="Подробности" class="more">Information</a>
-					</div>
-					<div class="swiper-slide" style="background-image:url(resources/work-8.jpg); background-position: center bottom;">
-						<div class="container">
-							<div class="left">
-								<div class="box">
-									<h1 en="Muurametalot Oy" fi="Muurametalot Oy" ru="Muurametalot Oy">Muurametalot Oy</h1>
-									<h2 en="Marketing images for the new house collection" fi="Valmistalomalliston tuotekuvat" ru="Рекламные материалы для новой коллекции домов">Marketing images for the new house collection</h2>
-									<p only="en">At the Housing Fair 2014 Muurametalot established a new house collection, named Funktio. Displayed visualizations were created to enhance sales and marketing of the new houses.</p>
-									<p only="fi">Vuoden 2014 Asuntomessuilla Muurametalot julkaisi uuden Funktio-talomalliston.  Yhteistyössä yrityksen kanssa, Capture Design tuotti visualisoinnit talojen ennakkomarkkinointiin.</p>
-									<p only="ru">На жилищной выставке 2014 года, Muurametalot запустили новую коллекцию готовых домов, названую Funktio. Представленные визуализации были созданы для активного продвижения и продаж домов из новой коллекции.</p>
-									<p only="en">The architecture of houses was designed in a spirit of functionalism and interior design was expected to follow the same guidelines. Based on the fact that Muurametalo’s main market is Finland, objects and furniture were chosen mainly from Finnish collections. Challenge from the spatial point of view was to combine contemporary style with injections of architecture and design from the first half of the century.</p>
-									<p only="fi">Talojen arkkitehtuuri perustuu funktionalismin aikakauteen, minkä asiakas toivoi näkyvän myös sisustussuunnittelussa. Suomalaisille asiakkaille kohdennettuun markkinointiin soveltuen, sisutusratkaisut toteutettiin minimalistiseen, skandinaaviseen tyyliin. Pintamateriaalit ja värit valittiin asiakkaan yhteistyökumppanien kokoelmista ja kalusteet suomalaisten valmistajien valikoimista. Lopputuloksena syntyi modernin tyylin ja funktionalismin puhdas yhteensulautuma.</p>
-									<p only="ru">Архитектура домов была выполнена в духе функционализма, соответственно дизайн интерьера также требовался в рамках данного стилевого направления. Основываясь на том факте, что основная клиентская база Muurametalo проживает в Финляндии, предметы мебели и декора были выбраны из коллекций финских производителей. Сложность задачи с пространственной точки зрения заключалась в удачном совмещении современного стиля с элементами дизайна и архитектуры начала двадцатого века.</p>
-									<a class="less">X</a>
+						</li>
+						<li>
+							<a href="#project-11" class="fancybox-trigger"><img src="/img/project-11-thumb.jpg"></a>
+							<a href="" class="ov-open">Learn more</a>
+							<div class="overlay">
+								<a href="" class="ov-close">&#160;</a>
+								<div class="ov-wrapper">
+									<div class="ov-inner text-center">
+										<p class="title">Client:</p>
+										<p><a href="http://scanio.fi/" target="_blank">Scanio Oy</a></p>
+										<p class="title">Location:</p>
+										<p>Saariselkä, Lappland</p>
+										<p class="title">Projects:</p>
+										<p>“Villa Karhunpesä”, a set of 4 rental cottages</p>
+										<p class="title">Our Services:</p>
+										<p>full interior design: concept development, 3D visualizations,<br/>technical drawings: layouts, elevations, sections,<br/>material and furniture lists, project supervision</p>
+										<p class="title">Result:</p>
+										<p>smooth renovation process; welcoming bold interiors<br/>with the desired atmosphere; efficient marketing:<br/>constant tourists guest flow across the year</p>
+									</div>
 								</div>
 							</div>
-							<div class="right hidden-xs"></div>
-						</div>
-						<img class="logo" src="resources/logo-muurametalo.png" />
-						<a en="Information" fi="Lue lisää" ru="Подробности" class="more">Information</a>
-					</div>
-					<div class="swiper-slide" style="background-image:url(resources/work-14.jpg); background-position: center bottom;">
-						<div class="container">
-							<div class="left">
-								<div class="box">
-									<h1 en="Muurametalot Oy" fi="Muurametalot Oy" ru="Muurametalot Oy">Muurametalot Oy</h1>
-									<h2 en="Marketing images for the new house collection" fi="Valmistalomalliston tuotekuvat" ru="Рекламные материалы для новой коллекции домов">Marketing images for the new house collection</h2>
-									<p only="en">At the Housing Fair 2014 Muurametalot established a new house collection, named Funktio. Displayed visualizations were created to enhance sales and marketing of the new houses.</p>
-									<p only="fi">Vuoden 2014 Asuntomessuilla Muurametalot julkaisi uuden Funktio-talomalliston.  Yhteistyössä yrityksen kanssa, Capture Design tuotti visualisoinnit talojen ennakkomarkkinointiin.</p>
-									<p only="ru">На жилищной выставке 2014 года, Muurametalot запустили новую коллекцию готовых домов, названую Funktio. Представленные визуализации были созданы для активного продвижения и продаж домов из новой коллекции.</p>
-									<p only="en">The architecture of houses was designed in a spirit of functionalism and interior design was expected to follow the same guidelines. Based on the fact that Muurametalo’s main market is Finland, objects and furniture were chosen mainly from Finnish collections. Challenge from the spatial point of view was to combine contemporary style with injections of architecture and design from the first half of the century.</p>
-									<p only="fi">Talojen arkkitehtuuri perustuu funktionalismin aikakauteen, minkä asiakas toivoi näkyvän myös sisustussuunnittelussa. Suomalaisille asiakkaille kohdennettuun markkinointiin soveltuen, sisutusratkaisut toteutettiin minimalistiseen, skandinaaviseen tyyliin. Pintamateriaalit ja värit valittiin asiakkaan yhteistyökumppanien kokoelmista ja kalusteet suomalaisten valmistajien valikoimista. Lopputuloksena syntyi modernin tyylin ja funktionalismin puhdas yhteensulautuma.</p>
-									<p only="ru">Архитектура домов была выполнена в духе функционализма, соответственно дизайн интерьера также требовался в рамках данного стилевого направления. Основываясь на том факте, что основная клиентская база Muurametalo проживает в Финляндии, предметы мебели и декора были выбраны из коллекций финских производителей. Сложность задачи с пространственной точки зрения заключалась в удачном совмещении современного стиля с элементами дизайна и архитектуры начала двадцатого века.</p>
-									<a class="less">X</a>
+						</li>
+						<li>
+							<a href="#project-12" class="fancybox-trigger"><img src="/img/project-12-thumb.jpg"></a>
+							<a href="" class="ov-open">Learn more</a>
+							<div class="overlay">
+								<a href="" class="ov-close">&#160;</a>
+								<div class="ov-wrapper">
+									<div class="ov-inner text-center">
+										<p class="title">Client:</p>
+										<p><a href="http://www.gullsten-inkinen.com/" target="_blank">Interior Architect Office Gullstén-Inkinen Oy</a></p>
+										<p class="title">Location:</p>
+										<p>Helsinki</p>
+										<p class="title">Projects:</p>
+										<p>interior design for offices, restaurants,<br/>hotels, and other public spaces</p>
+										<p class="title">Our Services:</p>
+										<p>detailed realistic 3D visualizations</p>
+										<p class="title">Result:</p>
+										<p>advanced design evaluation and approval through 3D scenes;<br/>convincing illustrative materials for customers’ presentations;<br/>smooth communication between interior architects<br/>and their customers</p>
+									</div>
 								</div>
 							</div>
-							<div class="right hidden-xs"></div>
+						</li>
+						<li>
+							<a href="#project-13" class="fancybox-trigger"><img src="/img/project-13-thumb.jpg"></a>
+							<a href="" class="ov-open">Learn more</a>
+							<div class="overlay">
+								<a href="" class="ov-close">&#160;</a>
+								<div class="ov-wrapper">
+									<div class="ov-inner text-center">
+										<p class="title">Client:</p>
+										<p><a href="http://www.muurametalot.fi/" target="_blank">Muurametalot Oy</a></p>
+										<p class="title">Location:</p>
+										<p>Jyväskylä</p>
+										<p class="title">Projects:</p>
+										<p>Funktio*, a new elements houses collection</p>
+										<p class="title">Our Services:</p>
+										<p>interior design and photo-realistic 3D visualizations</p>
+										<p class="title">Result:</p>
+										<p>interior design, corresponding to the style of the houses;<br/>impressive presentation materials for the web page and sales team;<br/>competitive advantage: wider market share, increased sales</p>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#project-14" class="fancybox-trigger"><img src="/img/project-14-thumb.jpg"></a>
+							<a href="" class="ov-open">Learn more</a>
+							<div class="overlay">
+								<a href="" class="ov-close">&#160;</a>
+								<div class="ov-wrapper">
+									<div class="ov-inner text-center">
+										<p class="title">Client:</p>
+										<p><a href="http://www.muurametalot.fi/" target="_blank">Muurametalot Oy</a></p>
+										<p class="title">Location:</p>
+										<p>Jyväskylä</p>
+										<p class="title">Projects:</p>
+										<p>Funktio*, a new elements houses collection</p>
+										<p class="title">Our Services:</p>
+										<p>interior design and photo-realistic 3D visualizations</p>
+										<p class="title">Result:</p>
+										<p>interior design, corresponding to the style of the houses;<br/>impressive presentation materials for the web page and sales team;<br/>competitive advantage: wider market share, increased sales</p>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<a href="#" id="prev-project" class="nav prev-slide no-border"></a>
+					<a href="#" id="next-project" class="nav next-slide no-border"></a>
+				</div>
+				<div id="project-1" class="fancybox-dc-inner">
+					<img class="fancybox-dc-image" src="/img/project-1.jpg" />
+				</div>
+				<div id="project-2" class="fancybox-dc-inner">
+					<img class="fancybox-dc-image" src="/img/project-2.jpg" />
+				</div>
+				<div id="project-3" class="fancybox-dc-inner">
+					<img class="fancybox-dc-image" src="/img/project-3.jpg" />
+				</div>
+				<div id="project-4" class="fancybox-dc-inner">
+					<img class="fancybox-dc-image" src="/img/project-4.jpg" />
+				</div>
+				<div id="project-5" class="fancybox-dc-inner">
+					<img class="fancybox-dc-image" src="/img/project-5.jpg" />
+				</div>
+				<div id="project-6" class="fancybox-dc-inner">
+					<img class="fancybox-dc-image" src="/img/project-6.jpg" />
+				</div>
+				<div id="project-7" class="fancybox-dc-inner">
+					<img class="fancybox-dc-image" src="/img/project-7.jpg" />
+				</div>
+				<div id="project-8" class="fancybox-dc-inner">
+					<img class="fancybox-dc-image" src="/img/project-8.jpg" />
+				</div>
+				<div id="project-9" class="fancybox-dc-inner">
+					<img class="fancybox-dc-image" src="/img/project-9.jpg" />
+				</div>
+				<div id="project-10" class="fancybox-dc-inner">
+					<img class="fancybox-dc-image" src="/img/project-10.jpg" />
+				</div>
+				<div id="project-11" class="fancybox-dc-inner">
+					<img class="fancybox-dc-image" src="/img/project-11.jpg" />
+				</div>
+				<div id="project-12" class="fancybox-dc-inner">
+					<img class="fancybox-dc-image" src="/img/project-12.jpg" />
+				</div>
+				<div id="project-13" class="fancybox-dc-inner">
+					<img class="fancybox-dc-image" src="/img/project-13.jpg" />
+				</div>
+				<div id="project-14" class="fancybox-dc-inner">
+					<img class="fancybox-dc-image" src="/img/project-14.jpg" />
+				</div>
+			</section>
+
+			<section class="customers">
+				<h2 class="text-center">They Picked Us</h2>
+				<p class="lead text-center">Read why:</p>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4">
+							<h3 class="quote-sign">&ldquo;</h3>
+							<p>
+								Our collaboration consists of comprehensive work environments improvements, which requires fast work. The Capture Design’s 3D-based way of working allows us to offer detailed and efficient interior design solutions for our customers. The team is agile and works in a very systematic manner.
+							</p>
+							<p>
+								Esa Santamäki<br/>
+								CEO &amp; Chief Producer<br/>
+								<a href="http://agilework.fi" target="_blank">Agile Work Oy</a>
+							</p>
 						</div>
-						<img class="logo" src="resources/logo-muurametalo.png" />
-						<a en="Information" fi="Lue lisää" ru="Подробности" class="more">Information</a>
+						<div class="col-sm-4">
+							<h3 class="quote-sign">&ldquo;</h3>
+							<p>
+								It’s important to us that the 3D visualizations are made with a visual eye and the details are thought trough. Capture Design team is always able to follow our tight schedules. Their images help us test-proof the design concept and gain immediate trust from our clients. This first impression achieved by great images sets the right mood for the whole project.
+							</p>
+							<p>
+								Martta Suurpää<br/>
+								Interior Architect SIO<br/>
+								Team Leader<br/>
+								<a href="http://www.workspace.fi/en/" target="_blank">Workspace Oy</a>
+							</p>
+						</div>
+						<div class="col-sm-4">
+							<h3 class="quote-sign">&ldquo;</h3>
+							<p>
+								Boundless imagination, visual presentation manner and fast reactivity makes Capture Design a perfect partner for Messua. We realize exhibition stands annually both in Finland and abroad. Partners, like Capture Design, with wide understanding of a modern world and lifestyle are important for us.
+							</p>
+							<p>
+								Pia Rautakorpi<br/>
+								COO<br/>
+								<a href="http://messua.fi/en/" target="_blank">Messua Oy</a>
+							</p>
+						</div>
 					</div>
 				</div>
-				<div class="swiper-button-next swiper-button-white"></div>
-				<div class="swiper-button-prev swiper-button-white"></div>
-			</div>
-		</div>
+			</section>
 
-		<div class="section section-contact with-header">
-			<div class="container avatars">
-				<div class="row">
-					<div class="col col-sm-2">
-						<img src="resources/ida.png" class="avatar" data-target="ida" />
+			<section class="contact">
+				<h2 class="text-center">How Can We Help You?</h2>
+				<p class="text-center lead">Drop us a message:</p>
+				<form method="post" action="https://formspree.io/info@capturedesign.pro">
+					<input type="text" name="_gotcha" style="display:none" />
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-offset-1 col-sm-4 col-md-offset-2 col-md-3 col-lg-offset-3 col-lg-2">
+								<div class="form-group">
+									<label for="name">Name:</label>
+									<input class="form-control" type="text" name="name" id="name" />
+								</div>
+								<div class="form-group">
+									<label for="email">Email:*</label>
+									<input class="form-control" type="text" name="email" id="email" />
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-5 col-lg-4">
+								<div class="form-group">
+									<label for="message">Message:*</label>
+									<textarea class="form-control" id="message" name="message" rows="5" placeholder="tell us the problem, we find the solution"></textarea>
+								</div>
+								<div class="form-group">
+									<input class="btn btn-default" type="submit" value="Send" />
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="col col-sm-4">
-						<h1 en="Ida Broms" fi="Ida Broms" ru="Ида Бромс">IDA BROMS</h1> 
-						<p class="contact">
-							<span en="Interior Architect, 3D Artist" fi="Sisustusarkkitehti, 3D-artisti" ru="Дизайнер интерьера, 3D художник">Interior Architect, 3D Artist</span><br/>
-							<a href="mailto:ida@capturedesign.pro">ida@capturedesign.pro</a><br/>
-							+358 50 4683915<br/>
-							<a href="https://fi.linkedin.com/pub/ida-broms/5b/420/126" target="_blank">LinkedIn</a><br/>
-						</p>
-					</div>
-					<div class="col col-sm-2">
-						<img src="resources/marina.png" class="avatar marina" data-target="marina" />
-					</div>
-					<div class="col col-sm-4">
-						<h1 en="Marina Smirnova" fi="Marina Smirnova" ru="Марина Смирнова">MARINA SMIRNOVA</h1>
-						<p class="contact">
-							<span en="Interior Designer, 3D Artist" fi="Sisustussuunnittelija, 3D-artisti" ru="Дизайнер, 3D визуализатор">Interior Designer, 3D Artist</span><br/>
-							<a href="mailto:marina@capturedesign.pro">marina@capturedesign.pro</a><br/>
-							+358 44 9808991<br/>
-							<a href="https://fi.linkedin.com/pub/marina-smirnova/71/189/5a5/en" target="_blank">LinkedIn</a><br/>
-						</p>
+				</form>
+			</section>
+
+			<section class="team">
+				<h2 class="text-center">That's Us</h2>
+				<p class="text-center lead">Two Girls, One Vision</p>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 text-center">
+							<img src="/img/team-ida.gif" />
+							<h3>Ida Broms</h3>
+							<p class="lead">
+								Interior Architect, SIO
+							</p>
+							<p class="lead">+358 50 468 3915</p>
+						</div>
+						<div class="col-sm-6 text-center">
+							<img src="/img/team-marina.gif" />
+							<h3>Marina Gretsova</h3>
+							<p class="lead">
+								Interior Designer, 3D Artist
+							</p>
+							<p class="lead">+358 44 980 8991</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="container-fluid footer">
-				<a target="_blank" href="https://www.facebook.com/capturedesignoy/">Facebook</a> | 
-				<a target="_blank" href="http://vk.com/capturedesignru">VK</a> | 
-				<a target="_blank" href="http://blog.capturedesign.pro">Blog</a> | 
-				<a target="_blank" href="http://store.capturedesign.pro/">Store</a><br/>
-				<a target="_blank" href="mailto:info@capturedesign.pro">info@capturedesign.pro</a><br/>
-				Y-tunnus: 2622218-9
-			</div>
-		</div>
+			</section>
+		</main>
 
-		<script src="scripts/vendor/jquery/dist/jquery.min.js"></script>
-		<script src="scripts/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-		<script src="scripts/vendor/swiper/dist/js/swiper.jquery.js"></script>
-		<script src="scripts/main.js"></script>
+		<footer class="container-fluid">
+			<section>
+				<h2 class="text-center">Follow Us on Social Media:</h2>
+				<div class="wp-posts text-center">
+					<img class="loader" src="/img/loader.gif" />
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4 text-center">
+							<a class="social" href="https://www.facebook.com/capturedesignoy/" target="_blank"><img src="/img/ico-facebook-w.png"/></a>
+							<a class="social" href="https://www.linkedin.com/company/capture-design-oy" target="_blank"><img src="/img/ico-linkedin-w.png"/></a>
+							<a class="social" href="https://www.instagram.com/capturedesignoy/" target="_blank"><img src="/img/ico-instagram-w.png"/></a>
+						</div>
+						<div class="col-sm-4 text-center copyright">
+							<p>© 2016 Capture Design Oy</p>
+							<p>Business ID 2622218-9</p>
+						</div>
+						<div class="col-sm-4 text-center">
+							<p>Made with <span class="heart" style="color:#F52323">&#10084;</span> in Finland</p>
+							<p>by <a href="https://fi.linkedin.com/in/daniel-costa-b4310570" target="_blank">Daniel Costa</a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</footer>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+		<script src="/js/vendor/jquery.easing.min.1.3.js"></script>
+		<script src="/js/vendor/bootstrap.min.js"></script>
+		<script src="/js/vendor/sly.min.js"></script>
+		<script src="/js/vendor/fancybox.js"></script>
+		<script src="/js/main.js"></script>
 		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-69755309-1', 'auto');
-		ga('send', 'pageview');</script>
+				(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+				function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+				e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+				e.src='http://www.google-analytics.com/analytics.js';
+				r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+				ga('create','UA-69755309-1','auto');ga('send','pageview');
+		</script>
+
 	</body>
 </html>
+	
