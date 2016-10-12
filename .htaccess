@@ -1,0 +1,22 @@
+
+# CHANGE BY DC on 2016-08-24 : START -/
+# RewriteEngine on
+#
+# # Use PHP5.4 Single php.ini as default
+# # Changed PHP handler from application/x-httpd-php54s to application/x-httpd-phpbetas on Thu Jan 14 00:23:07 MST 2016.
+# AddHandler application/x-httpd-phpbetas .php
+# RewriteRule ^wp-content/uploads/(.+)$ wordpress/wp-content/uploads/$1 [L]
+# /— CHANGE BY DC on 2016-08-24 : END
+
+
+RewriteEngine on 
+
+# CHANGE BY DC on 2016-09-15 : START -/
+# WANT THAT TO BE LOCALHOST COMPATIBLE
+# RewriteCond %{HTTP_HOST} ^(www.)?capturedesign.pro$ 
+# CHANGE BY DC on 2016-09-15 : END -/
+RewriteCond %{REQUEST_URI} !^/www/ 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(.*)$ www/$1
+RewriteRule ^(/)?$ www/index.php [L]

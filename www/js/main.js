@@ -134,10 +134,16 @@ $(document).ready(function($){
                 $('.wp-posts .loader').remove();
                 
             });
-
-            
         }
-    })
+    });
+
+    $('nav').affix({
+      offset: {
+        top: function () {
+          return y
+        }
+      }
+    });
 });
 
 $(window).resize(function(){

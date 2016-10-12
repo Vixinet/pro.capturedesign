@@ -1,7 +1,9 @@
 @font-face {
   font-family: "Raleway";
-  src: url('/fonts/raleway-regular.eot');
-  src: url('/fonts/raleway-regular.eot?#iefix') format('embedded-opentype'), url('/fonts/raleway-regular.woff') format('woff'), url('/fonts/raleway-regular.ttf') format('truetype'), url('/fonts/raleway-regular.svg#ralewayregular') format('svg');
+  src: url('../fonts/raleway-regular.eot');
+  src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'), 
+  	   url('../fonts/raleway-regular.ttf') format('truetype'), 
+  	   url('../fonts/raleway-regular.svg#ralewayregular') format('svg');
   font-weight: 400;
   font-style: normal;
 }
