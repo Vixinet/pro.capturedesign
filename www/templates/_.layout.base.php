@@ -91,8 +91,8 @@
 					<img class="loader" src="img/loader.gif" />
 				</div>
 				<div class="container">
-					<hr />
 					<div class="row">
+						<hr />
 						<div class="col-sm-4 text-center">
 							<p><?php lang('footer_copyright'); ?></p>
 						</div>

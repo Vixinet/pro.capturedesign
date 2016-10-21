@@ -6,7 +6,6 @@
 <section class="projects">
 	<div id="projects-slider" class="projects-slider">
 		<ul class="slidee">
-
 			<?php foreach( lang('work_projects') as $project ) { ?>
 				<li>
 					<a href="#project-<?php lang('project_id', true, $project); ?>" class="fancybox-trigger"><img src="<?php lang('project_image_thumbnail', true, $project); ?>"></a>

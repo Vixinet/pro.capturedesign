@@ -121,7 +121,7 @@
 			array(
 				"project_id" => "3",
 				"project_image_thumbnail" => "img/project-3-thumb.jpg",
-				"project_image_original" => "img/project-1.jpg",
+				"project_image_original" => "img/project-3.jpg",
 				"project_client_name" => "Interior Architecture Office Carola-Rytsölä Oy",
 				"project_client_website" => "http://carolarytsola.com/",
 				"project_location" => "Helsinki",

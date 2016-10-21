@@ -10,13 +10,11 @@
 
 
 RewriteEngine on 
-
-# CHANGE BY DC on 2016-09-15 : START -/
-# WANT THAT TO BE LOCALHOST COMPATIBLE
-# RewriteCond %{HTTP_HOST} ^(www.)?capturedesign.pro$ 
-# CHANGE BY DC on 2016-09-15 : END -/
-RewriteCond %{REQUEST_URI} !^/www/ 
+RewriteCond %{HTTP_HOST} ^(www.)?capturedesign.pro$ [or]
+RewriteCond %{HTTP_HOST} ^(www.)?capture.design$ 
 RewriteCond %{REQUEST_FILENAME} !-f 
 RewriteCond %{REQUEST_FILENAME} !-d 
-RewriteRule ^(.*)$ www/$1
+RewriteRule ^(.*)$ /www/$1 
+RewriteCond %{HTTP_HOST} ^(www.)?capturedesign.pro$ [or]
+RewriteCond %{HTTP_HOST} ^(www.)?capture.design$ 
 RewriteRule ^(/)?$ www/index.php [L]

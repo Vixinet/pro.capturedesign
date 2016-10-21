@@ -219,7 +219,9 @@ footer .wp-posts .post {
     }
     footer .wp-posts .post img {
         width: 100%;
-        max-height: 100%;
+        height: auto;
+        max-height: auto;
+        max-width: 100% !important;
     }
 
     footer .copyright {
