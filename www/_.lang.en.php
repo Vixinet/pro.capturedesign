@@ -175,7 +175,7 @@
 				"project_location" => "Helsinki",
 				"project_projects" => "premises and environments for work, R&D and teaching",
 				"project_services" => "interior design and 3D Visualizations for real estate marketing",
-				"project_result" => "impressive presentation materials for a web page and a sales team;<br/>a combination of a professional interior design and high-quality 3D visualizations<br/>helps our clients fully present all the advantages and<br/>the spatial potential of the property.",
+				"project_result" => "impressive presentation materials for a web page and a sales team; a combination of a professional interior design and high-quality 3D visualizations helps our clients fully present all the advantages and the spatial potential of the property.",
 			),
 
 			array(
@@ -187,7 +187,7 @@
 				"project_location" => "Helsinki",
 				"project_projects" => "premises and environments for work, R&D and teaching",
 				"project_services" => "interior design and 3D Visualizations for real estate marketing",
-				"project_result" => "impressive presentation materials for a web page and a sales team;<br/>a combination of a professional interior design and high-quality 3D visualizations<br/>helps our clients fully present all the advantages and<br/>the spatial potential of the property.",
+				"project_result" => "impressive presentation materials for a web page and a sales team; a combination of a professional interior design and high-quality 3D visualizations helps our clients fully present all the advantages and the spatial potential of the property.",
 			),
 
 			array(

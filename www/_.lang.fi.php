@@ -175,7 +175,7 @@
 				"project_location" => "Helsinki",
 				"project_projects" => "tutkimuksen, kehitystyön ja opetuksen toimintaympäristöjen tarjoaja",
 				"project_services" => "sisustussuunnittelu ja 3D-visualisointi",
-				"project_result" => "visuaalinen esitysmateriaali myynti- ja markkinointitarkoituksiin.<br/>Ammattitaitoinen suunnittelu ja tasokkaat 3D-visualisoinnit auttavat asiakkaitamme<br/>hahmottamaan kiinteistöjen tilallisia mahdollisuuksia.",
+				"project_result" => "visuaalinen esitysmateriaali myynti- ja markkinointitarkoituksiin. Ammattitaitoinen suunnittelu ja tasokkaat 3D-visualisoinnit auttavat asiakkaitamme hahmottamaan kiinteistöjen tilallisia mahdollisuuksia.",
 			),
 
 			array(
@@ -187,7 +187,7 @@
 				"project_location" => "Helsinki",
 				"project_projects" => "tutkimuksen, kehitystyön ja opetuksen toimintaympäristöjen tarjoaja",
 				"project_services" => "sisustussuunnittelu ja 3D-visualisointi",
-				"project_result" => "visuaalinen esitysmateriaali myynti- ja markkinointitarkoituksiin.<br/>Ammattitaitoinen suunnittelu ja tasokkaat 3D-visualisoinnit auttavat asiakkaitamme<br/>hahmottamaan kiinteistöjen tilallisia mahdollisuuksia.",
+				"project_result" => "visuaalinen esitysmateriaali myynti- ja markkinointitarkoituksiin. Ammattitaitoinen suunnittelu ja tasokkaat 3D-visualisoinnit auttavat asiakkaitamme hahmottamaan kiinteistöjen tilallisia mahdollisuuksia.",
 			),
 
 			array(
