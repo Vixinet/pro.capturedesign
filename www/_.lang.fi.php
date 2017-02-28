@@ -131,6 +131,30 @@
 			),
 
 			array(
+				"project_id" => "7",
+				"project_image_thumbnail" => "img/project-7-thumb.jpg",
+				"project_image_original" => "img/project-7.jpg",
+				"project_client_name" => "Aalto-yliopistokiinteistöt Oy",
+				"project_client_website" => "http://aaltocre.fi/",
+				"project_location" => "Helsinki",
+				"project_projects" => "tutkimuksen, kehitystyön ja opetuksen toimintaympäristöjen tarjoaja",
+				"project_services" => "sisustussuunnittelu ja 3D-visualisointi",
+				"project_result" => "visuaalinen esitysmateriaali myynti- ja markkinointitarkoituksiin. Ammattitaitoinen suunnittelu ja tasokkaat 3D-visualisoinnit auttavat asiakkaitamme hahmottamaan kiinteistöjen tilallisia mahdollisuuksia.",
+			),
+
+			array(
+				"project_id" => "8",
+				"project_image_thumbnail" => "img/project-8-thumb.jpg",
+				"project_image_original" => "img/project-8.jpg",
+				"project_client_name" => "Aalto-yliopistokiinteistöt Oy",
+				"project_client_website" => "http://aaltocre.fi/",
+				"project_location" => "Helsinki",
+				"project_projects" => "tutkimuksen, kehitystyön ja opetuksen toimintaympäristöjen tarjoaja",
+				"project_services" => "sisustussuunnittelu ja 3D-visualisointi",
+				"project_result" => "visuaalinen esitysmateriaali myynti- ja markkinointitarkoituksiin. Ammattitaitoinen suunnittelu ja tasokkaat 3D-visualisoinnit auttavat asiakkaitamme hahmottamaan kiinteistöjen tilallisia mahdollisuuksia.",
+			),
+
+			array(
 				"project_id" => "4",
 				"project_image_thumbnail" => "img/project-4-thumb.jpg",
 				"project_image_original" => "img/project-4.jpg",
@@ -164,30 +188,6 @@
 				"project_projects" => "LED-valaisimia tuottava yritys / uusi mallisto",
 				"project_services" => "yksityiskohtaiset ja realistiset 3D-visualisoinnit",
 				"project_result" => "markkinointimateriaali tehokkaaseen myyntiin. Suunnittelimme valaisimille innovatiivisia käyttösovelluksia, jotka havainnollistimme 3D-visualisointien avulla. Kuviamme yritys käyttää kuvastossaan ja kotisivuillaan, jotka toimivat inspiraation lähteenä yrityksen asiakkaille.",
-			),
-
-			array(
-				"project_id" => "7",
-				"project_image_thumbnail" => "img/project-7-thumb.jpg",
-				"project_image_original" => "img/project-7.jpg",
-				"project_client_name" => "Aalto-yliopistokiinteistöt Oy",
-				"project_client_website" => "http://aaltocre.fi/",
-				"project_location" => "Helsinki",
-				"project_projects" => "tutkimuksen, kehitystyön ja opetuksen toimintaympäristöjen tarjoaja",
-				"project_services" => "sisustussuunnittelu ja 3D-visualisointi",
-				"project_result" => "visuaalinen esitysmateriaali myynti- ja markkinointitarkoituksiin. Ammattitaitoinen suunnittelu ja tasokkaat 3D-visualisoinnit auttavat asiakkaitamme hahmottamaan kiinteistöjen tilallisia mahdollisuuksia.",
-			),
-
-			array(
-				"project_id" => "8",
-				"project_image_thumbnail" => "img/project-8-thumb.jpg",
-				"project_image_original" => "img/project-8.jpg",
-				"project_client_name" => "Aalto-yliopistokiinteistöt Oy",
-				"project_client_website" => "http://aaltocre.fi/",
-				"project_location" => "Helsinki",
-				"project_projects" => "tutkimuksen, kehitystyön ja opetuksen toimintaympäristöjen tarjoaja",
-				"project_services" => "sisustussuunnittelu ja 3D-visualisointi",
-				"project_result" => "visuaalinen esitysmateriaali myynti- ja markkinointitarkoituksiin. Ammattitaitoinen suunnittelu ja tasokkaat 3D-visualisoinnit auttavat asiakkaitamme hahmottamaan kiinteistöjen tilallisia mahdollisuuksia.",
 			),
 
 			array(

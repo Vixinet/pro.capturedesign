@@ -129,6 +129,30 @@
 				"project_services" => "detailed tasteful 3D visualizations",
 				"project_result" => "advanced design evaluation through 3D scenes;<br/>impressive presentation and marketing materials;<br/>smooth communication between interior architects<br/>and their customers",
 			),
+			
+			array(
+				"project_id" => "7",
+				"project_image_thumbnail" => "img/project-7-thumb.jpg",
+				"project_image_original" => "img/project-7.jpg",
+				"project_client_name" => "Aalto University Campus & Real Estate",
+				"project_client_website" => "http://aaltocre.fi/en/",
+				"project_location" => "Helsinki",
+				"project_projects" => "premises and environments for work, R&D and teaching",
+				"project_services" => "interior design and 3D Visualizations for real estate marketing",
+				"project_result" => "impressive presentation materials for a web page and a sales team; a combination of a professional interior design and high-quality 3D visualizations helps our clients fully present all the advantages and the spatial potential of the property.",
+			),
+
+			array(
+				"project_id" => "8",
+				"project_image_thumbnail" => "img/project-8-thumb.jpg",
+				"project_image_original" => "img/project-8.jpg",
+				"project_client_name" => "Aalto University Campus & Real Estate",
+				"project_client_website" => "http://aaltocre.fi/en/",
+				"project_location" => "Helsinki",
+				"project_projects" => "premises and environments for work, R&D and teaching",
+				"project_services" => "interior design and 3D Visualizations for real estate marketing",
+				"project_result" => "impressive presentation materials for a web page and a sales team; a combination of a professional interior design and high-quality 3D visualizations helps our clients fully present all the advantages and the spatial potential of the property.",
+			),
 
 			array(
 				"project_id" => "4",
@@ -164,30 +188,6 @@
 				"project_projects" => "launch of the new LED-lights collection",
 				"project_services" => "interior design and photo-realistic 3D visualizations",
 				"project_result" => "diverse interior design solutions for over<br/>15 spaces with LED lights integration;<br/>creative presentation of the application possibilities<br/>through realistic 3D renderings; impressive illustrative<br/>materials for catalogue and web page;<br/>efficient sales & marketing",
-			),
-
-			array(
-				"project_id" => "7",
-				"project_image_thumbnail" => "img/project-7-thumb.jpg",
-				"project_image_original" => "img/project-7.jpg",
-				"project_client_name" => "Aalto University Campus & Real Estate",
-				"project_client_website" => "http://aaltocre.fi/en/",
-				"project_location" => "Helsinki",
-				"project_projects" => "premises and environments for work, R&D and teaching",
-				"project_services" => "interior design and 3D Visualizations for real estate marketing",
-				"project_result" => "impressive presentation materials for a web page and a sales team; a combination of a professional interior design and high-quality 3D visualizations helps our clients fully present all the advantages and the spatial potential of the property.",
-			),
-
-			array(
-				"project_id" => "8",
-				"project_image_thumbnail" => "img/project-8-thumb.jpg",
-				"project_image_original" => "img/project-8.jpg",
-				"project_client_name" => "Aalto University Campus & Real Estate",
-				"project_client_website" => "http://aaltocre.fi/en/",
-				"project_location" => "Helsinki",
-				"project_projects" => "premises and environments for work, R&D and teaching",
-				"project_services" => "interior design and 3D Visualizations for real estate marketing",
-				"project_result" => "impressive presentation materials for a web page and a sales team; a combination of a professional interior design and high-quality 3D visualizations helps our clients fully present all the advantages and the spatial potential of the property.",
 			),
 
 			array(
