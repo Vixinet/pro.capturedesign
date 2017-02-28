@@ -248,7 +248,7 @@
 				"project_projects" => "valmistalojen suunnittelu ja toimitus",
 				"project_services" => "sisustussuunnittelu ja 3D-visualisointi Funktio-talomallistolle",
 				"project_result" => "visuaalinen esitysmateriaali ennakkomarkkinointiin. Yhteisenä tavoitteena oli sulauttaa ripaus funktionalismin aikakautta moderniin skandinaaviseen sisustukseen.",
-			),
+			)
 		)
 
 	);

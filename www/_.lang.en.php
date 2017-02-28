@@ -129,7 +129,7 @@
 				"project_services" => "detailed tasteful 3D visualizations",
 				"project_result" => "advanced design evaluation through 3D scenes;<br/>impressive presentation and marketing materials;<br/>smooth communication between interior architects<br/>and their customers",
 			),
-			
+
 			array(
 				"project_id" => "7",
 				"project_image_thumbnail" => "img/project-7-thumb.jpg",
@@ -248,7 +248,7 @@
 				"project_projects" => "Funktio*, a new elements houses collection",
 				"project_services" => "interior design and photo-realistic 3D visualizations",
 				"project_result" => "interior design, corresponding to the style of the houses;<br/>impressive presentation materials for the web page and sales team;<br/>competitive advantage: wider market share, increased sales",
-			),
+			)
 		)
 
 	);
