@@ -8,7 +8,9 @@
 		<ul class="slidee">
 			<?php foreach( lang('work_projects') as $project ) { ?>
 				<li>
-					<a href="#project-<?php lang('project_id', true, $project); ?>" class="fancybox-trigger"><img src="<?php lang('project_image_thumbnail', true, $project); ?>"></a>
+					<a href="#project-<?php lang('project_id', true, $project); ?>" class="fancybox-trigger">
+						<img src="<?php lang('project_image_thumbnail', true, $project, true); ?>" 
+							title="<?php lang('project_image_thumbnail', true, $project); ?>"></a>
 					<a href="" class="ov-open">&#160;</a>
 					<div class="overlay">
 						<a href="" class="ov-close">&#160;</a>
@@ -36,7 +38,9 @@
 
 	<?php foreach( lang('work_projects') as $project ) { ?>
 		<div id="project-<?php lang('project_id', true, $project); ?>" class="fancybox-dc-inner">
-			<img class="fancybox-dc-image" src="<?php lang('project_image_original', true, $project); ?>" />
+			<img class="fancybox-dc-image" 
+				src="<?php lang('project_image_original', true, $project, true); ?>" 
+				title="<?php lang('project_image_original', true, $project); ?>" />
 		</div>
 	<?php } ?>
 </section>
@@ -109,13 +113,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 text-center">
-				<img src="<?php lang('team_1_picture', true) ?>" />
+				<img src="<?php lang('team_1_picture', true, null, true) ?>" title="<?php lang('team_1_picture', true) ?>" />
 				<h3><a href="<?php lang('team_1_link') ?>"><?php lang('team_1_name') ?></a></h3>
 				<p class="lead"><?php lang('team_1_title') ?></p>
 				<p class="lead"><?php lang('team_1_phone') ?></p>
 			</div>
 			<div class="col-sm-6 text-center">
-				<img src="<?php lang('team_2_picture', true) ?>" />
+				<img src="<?php lang('team_2_picture', true, null, true) ?>" title="<?php lang('team_2_picture', true) ?>" />
 				<h3><a href="<?php lang('team_2_link') ?>"><?php lang('team_2_name') ?></a></h3>
 				<p class="lead"><?php lang('team_2_title') ?></p>
 				<p class="lead"><?php lang('team_2_phone') ?></p>

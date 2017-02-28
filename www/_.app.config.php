@@ -11,7 +11,7 @@
 
 	include_once('_.lang.' . $lang . '.php');
 
-	function lang($key, $text_only = false, $alternative_language = null) {
+	function lang($key, $text_only = false, $alternative_language = null, $skip_debug = false) {
 		global $language;
 
 		$_language = $alternative_language ? $alternative_language : $language;
@@ -20,7 +20,7 @@
 
 			$value = $_language[$key];
 
-			if( isset($_GET['debug']) && !is_array($value) ) {
+			if( isset($_GET['debug']) && !$skip_debug && !is_array($value) ) {
 				echo $text_only ? $key : "<span class=\"label label-warning\">$key</span>";
 			} else {
 				if( is_array($value) ) {
