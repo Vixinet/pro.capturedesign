@@ -60,7 +60,7 @@
 		"contact_form_send" => "Lähetä",
 
 		"team_title" => "Meidän tiimi",
-		"team_subtitle" => "Tavataanko",
+		"team_subtitle" => "Tavataanko?",
 
 		"team_1_picture" => "img/team-ida.gif",
 		"team_1_name" => "Ida Broms",
@@ -170,24 +170,24 @@
 				"project_id" => "7",
 				"project_image_thumbnail" => "img/project-7-thumb.jpg",
 				"project_image_original" => "img/project-7.jpg",
-				"project_client_name" => "KVH-Rakennus Oy",
-				"project_client_website" => "http://www.kvh-rakennus.fi/",
-				"project_location" => "Lieto",
-				"project_projects" => "rakennuspalvelu / asuinalueet",
+				"project_client_name" => "Aalto-yliopistokiinteistöt Oy",
+				"project_client_website" => "http://aaltocre.fi/",
+				"project_location" => "Helsinki",
+				"project_projects" => "tutkimuksen, kehitystyön ja opetuksen toimintaympäristöjen tarjoaja",
 				"project_services" => "sisustussuunnittelu ja 3D-visualisointi",
-				"project_result" => "visuaalinen esitysmateriaali myynti- ja markkinointitarkoituksiin. Suunnittelimme ja visualisoimme avarat ja valoisat tilat, jotka vetoavat oikeaan kohderyhmään.",
+				"project_result" => "visuaalinen esitysmateriaali myynti- ja markkinointitarkoituksiin.<br/>Ammattitaitoinen suunnittelu ja tasokkaat 3D-visualisoinnit auttavat asiakkaitamme<br/>hahmottamaan kiinteistöjen tilallisia mahdollisuuksia.",
 			),
 
 			array(
 				"project_id" => "8",
 				"project_image_thumbnail" => "img/project-8-thumb.jpg",
 				"project_image_original" => "img/project-8.jpg",
-				"project_client_name" => "KVH-Rakennus Oy",
-				"project_client_website" => "http://www.kvh-rakennus.fi/",
-				"project_location" => "Lieto",
-				"project_projects" => "rakennuspalvelu / asuinalueet",
+				"project_client_name" => "Aalto-yliopistokiinteistöt Oy",
+				"project_client_website" => "http://aaltocre.fi/",
+				"project_location" => "Helsinki",
+				"project_projects" => "tutkimuksen, kehitystyön ja opetuksen toimintaympäristöjen tarjoaja",
 				"project_services" => "sisustussuunnittelu ja 3D-visualisointi",
-				"project_result" => "visuaalinen esitysmateriaali myynti- ja markkinointitarkoituksiin. Suunnittelimme ja visualisoimme avarat ja valoisat tilat, jotka vetoavat oikeaan kohderyhmään.",
+				"project_result" => "visuaalinen esitysmateriaali myynti- ja markkinointitarkoituksiin.<br/>Ammattitaitoinen suunnittelu ja tasokkaat 3D-visualisoinnit auttavat asiakkaitamme<br/>hahmottamaan kiinteistöjen tilallisia mahdollisuuksia.",
 			),
 
 			array(
