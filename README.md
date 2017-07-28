@@ -1,4 +1,4 @@
-# pro.capturedesign
+# www.capturedesign.pro
 ## Information
 Website for the Capture Design company
 
